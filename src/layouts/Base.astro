@@ -1,0 +1,59 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+const { title, description = 'Minningarsjóður frú Stefaníu Guðmundsdóttur — styrkir og viðurkenningar til íslenskra leikara frá 1970.' } = Astro.props;
+const siteName = 'Stefaníusjóður';
+const fullTitle = title ? `${title} · ${siteName}` : `${siteName} — Minningarsjóður frú Stefaníu Guðmundsdóttur`;
+
+const nav = [
+  { href: '/um-sjodinn', label: 'Um sjóðinn' },
+  { href: '/stefania', label: 'Frú Stefanía' },
+  { href: '/poul-reumert-og-anna-borg', label: 'Poul & Anna' },
+  { href: '/saga-sjodsins', label: 'Saga' },
+  { href: '/styrkthegar', label: 'Styrkþegar' },
+  { href: '/styrkveitingar', label: 'Styrkveitingar' },
+  { href: '/stefaniustjakinn', label: 'Stjakinn' },
+  { href: '/myndasafn', label: 'Myndasafn' },
+];
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+---
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Fara í efni</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/">
+          <span class="brand-name">Stefaníusjóður</span>
+          <span class="brand-sub">Minningarsjóður frú Stefaníu Guðmundsdóttur</span>
+        </a>
+        <nav aria-label="Aðalvalmynd">
+          <ul>
+            {nav.map((item) => (
+              <li><a href={item.href} aria-current={path.startsWith(item.href) ? 'page' : undefined}>{item.label}</a></li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="wrap">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>Minningarsjóður frú Stefaníu Guðmundsdóttur · Stofnaður 1938 af Önnu Borg og Poul Reumert</p>
+      </div>
+    </footer>
+  </body>
+</html>

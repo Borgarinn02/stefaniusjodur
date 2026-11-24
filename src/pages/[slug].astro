@@ -1,0 +1,19 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Stjakinn from '../components/Stjakinn.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('sidur');
+  return pages.map((page) => ({ params: { slug: page.id }, props: { page } }));
+}
+const { page } = Astro.props;
+const { Content } = await render(page);
+---
+<Base title={page.data.title}>
+  <article class="prose">
+    <h1>{page.data.title}</h1>
+    {page.id === 'stefaniustjakinn' && <Stjakinn />}
+    <Content />
+  </article>
+</Base>

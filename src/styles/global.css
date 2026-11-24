@@ -1,0 +1,60 @@
+/* Placeholder styling — the visual direction is still to be decided.
+   Everything is driven by the tokens below, so a redesign starts here. */
+:root {
+  --bg: #f7f3ec;
+  --surface: #fffdf9;
+  --text: #1f1a17;
+  --muted: #6b625a;
+  --accent: #7a1f2b;
+  --line: #e2d9cc;
+  --serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+  --sans: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --wrap: 72rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161311;
+    --surface: #1f1b18;
+    --text: #efe8de;
+    --muted: #a99f93;
+    --accent: #d9848f;
+    --line: #3a332d;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 1.0625rem/1.65 var(--serif); }
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--accent); }
+h1, h2, h3 { line-height: 1.2; font-weight: 600; }
+h1 { font-size: clamp(1.9rem, 4vw, 2.8rem); margin: 0 0 1rem; }
+
+.wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 1rem; }
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 1rem; top: 1rem; background: var(--surface); padding: .5rem; }
+
+.site-header { border-bottom: 1px solid var(--line); background: var(--surface); }
+.header-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 1rem; }
+.brand { text-decoration: none; color: inherit; display: grid; }
+.brand-name { font-size: 1.5rem; letter-spacing: .04em; }
+.brand-sub { font: .8rem var(--sans); color: var(--muted); }
+nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: .25rem 1rem; margin: 0; padding: 0; font: .95rem var(--sans); }
+nav a { color: var(--text); text-decoration: none; }
+nav a[aria-current='page'], nav a:hover { color: var(--accent); text-decoration: underline; }
+
+main { padding-block: 2.5rem 4rem; }
+.prose { max-width: 42rem; }
+.prose img { margin: 1.5rem 0 .5rem; border-radius: 2px; }
+
+.site-footer { border-top: 1px solid var(--line); color: var(--muted); font: .875rem var(--sans); padding-block: 1.5rem; }
+
+.grid { display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 11rem), 1fr)); }
+.card { text-decoration: none; color: inherit; }
+.card img, .card .no-photo { aspect-ratio: 3 / 4; width: 100%; object-fit: cover; background: var(--line); }
+.card .no-photo { display: grid; place-items: center; color: var(--muted); font: .8rem var(--sans); }
+.card h3 { font-size: 1rem; margin: .5rem 0 0; }
+.card:hover h3 { color: var(--accent); }
+.year-heading { font: 600 .85rem var(--sans); letter-spacing: .1em; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: .25rem; margin-top: 2.5rem; }
+.muted { color: var(--muted); }
+.placeholder { border: 1px dashed var(--line); padding: 2rem; text-align: center; color: var(--muted); font-family: var(--sans); }

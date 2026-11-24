@@ -1,0 +1,23 @@
+---
+name: "Anna Kristín Arngrímsdóttir"
+year: 1977
+photo: "/images/styrkthegar/1977A.jpg"
+photoCredit: "Halldóra Sigríður"
+---
+
+stundaði nám við
+Leiklistarskóla LR og lauk þaðan prófi 1968. Hún starfaði í upphafi með
+Leikfélaginu og lék þar meðal annars Ástu í *Skugga-Sveini*
+Matthíasar Jochumssonar og Láru í *Kertalogi
+*Jökuls Jakobssonar. Þá lék hún titilhlutverkið í sjónvarpsleik Jökuls
+Jakobssonar, *Romm handa Rósalind*, sem
+var fyrsta leikritið sem tekið var upp í stúdíói Sjónvarpsins.  Hún réðst til Þjóðleikhússins árið 1973 og
+hefur starfað þar síðan. Af veigameiri hlutverkum hennar má nefna Regan í *Lé konungi* Shakespeares, Lóu í *Silfurtúnglinu* eftir Halldór Laxness, Kassöndru
+í *Óresteiu* Æskýlosar, Lottu í *Stórum og smáum* eftir Botho Strauss og
+Jelenu í *Kæru Jelenu*. Af hlutverkum
+utan Þjóðleikhússins má nefna Maríu Callas í *Master Class* á sviði Íslensku óperunnar. Meðal hlutverka hennar við
+Þjóðleikhúsið á síðari árum eru frú Kapúlett í *Rómeó og Júlíu* Shakespeares, Írena í *Mávi *Tsjekhovs, frú Bastían í *Kardemommubænum*,
+Vilhelmína í *Þreki og tárum* Ólafs
+Hauks Símonarsonar, Evrídíka í *Antígónu*
+Sófóklesar, Jacqueline Picasso í *Ástkonum
+Picassos* eftir Brian McAnvera, Ella Rentheim í *Jóni Gabríel Borkmann* Ibsens og Helga Sigurðardóttir í *Öxin og jörðin* eftir Ólaf Gunnarsson.

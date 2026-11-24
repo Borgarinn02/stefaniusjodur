@@ -1,0 +1,8 @@
+---
+name: "Jón Atli Jónasson"
+year: 2009
+photo: "/images/styrkthegar/2009B.jpg"
+photoCredit: null
+---
+
+Jón Atli Jónasson er fyrsta leikritaskáldið sem fær styrk úr Minningarsjóðnum. Hann hefur meðal annars samið leikritin *100 ára hús* fyrir Frú Emilíu, *Krádplíser* fyrir Reykvíska Listaleikhúsið, *Brim* fyrir Vesturport, *Draugalest* fyrir Leikfélag Reykjavíkur, *Rambó 7* fyrir Þjóðleikhúsið, *Mindcamp* og *Democrazy* ásamt Agli Heiðari Antoni Pálssyni fyrir CampX leikhúsið í Kaupmannahöfn. Hann er einn af stofnendum Mindgroup, evrópskra regnhlífasamtaka leikhúsfólks sem vinna að tilraunakenndri leiklist. Einleik sínum, *Djúpinu*, leikstýrði hann sjálfur á litla sviði Borgarleikhússins. Hann hefur einnig tekið þátt í að semja kvikmyndahandrit, m.a. fyrir myndir Árna Ólafs Óskarssonar, *Blóðbönd* og *Brim*. Síðarnefnda myndin er byggð á samnefndu leikriti hans sjálfs.

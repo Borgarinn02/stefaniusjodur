@@ -1,0 +1,22 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+const all = (await getCollection('styrkveitingar')).sort((a, b) => b.data.year - a.data.year);
+---
+<Base title="Styrkveitingar">
+  <h1>Styrkveitingar</h1>
+  <ul class="list">
+    {all.map((c) => (
+      <li><a href={`/styrkveitingar/${c.id}`}><span class="muted">{c.data.season}</span> {c.data.title}</a></li>
+    ))}
+  </ul>
+</Base>
+
+<style>
+  .list { list-style: none; padding: 0; max-width: 42rem; }
+  .list li { border-bottom: 1px solid var(--line); }
+  .list a { display: flex; gap: 1rem; padding: .75rem 0; text-decoration: none; color: inherit; }
+  .list a:hover { color: var(--accent); }
+  .list span { min-width: 6rem; font-family: var(--sans); }
+</style>

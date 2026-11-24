@@ -1,0 +1,12 @@
+---
+name: "Kristín Þóra Haraldsdóttir"
+year: 2014
+photo: "/images/styrkthegar/2014A.jpg"
+photoCredit: null
+---
+
+Kristín Þóra Haraldsdóttir útskrifaðist frá leiklistardeild Listaháskóla Íslands vorið 2007.
+
+Að lokinni útskrift hélt Kristín norður og var fastráðin hjá Leikfélagi Akureyrar veturinn 2007- 2008. Þar lék Kristín í *Óvitum* eftir Guðrún Helgadóttur, *Ökutímum* eftir Paulu Vogel og í farsanum *Fló á skinni* eftir Georges Feydau.
+
+Vorið 2008 gerðist hún fastráðinn leikari hjá Borgarleikhúsinu. Þar hefur hún m.a. leikið í *Vestrinu eina* eftir Martin Mcdonagh, *Cate í Rústað* eftir Söruh Kane, í *Fólkinu í kjallaranum* eftir Auði Jónsdóttur, Ariel í *Ofviðrinu*, *Strýhærða Pétri* eftir Heinrich Hoffman, *Elsku barni*, *Fanny og Alexander* eftir Ingimar Bergmann, *Tengdó* eftir Val Frey Einarsson, *Hamlet litla* eftir Berg Þór Ingólfsson og *Óskasteinum* eftir Ragnar Bragason, *Línu Langsokk* eftir Astrid Lindgren.

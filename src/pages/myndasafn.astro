@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro';
+import images from '../data/myndasafn.json';
+
+const byYear = Map.groupBy([...images].sort((a, b) => b.year - a.year), (i) => i.year);
+---
+<Base title="Myndasafn">
+  <h1>Myndasafn</h1>
+  {[...byYear].map(([year, imgs]) => (
+    <section>
+      <h2 class="year-heading">{year}</h2>
+      <div class="gallery">
+        {imgs.map((img) => (
+          <a href={img.src}>
+            <img src={img.thumb} alt={img.caption || `Mynd frá styrkveitingu ${year}`} loading="lazy" />
+          </a>
+        ))}
+      </div>
+    </section>
+  ))}
+</Base>
+
+<style>
+  .gallery { display: grid; gap: .75rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 10rem), 1fr)); }
+  .gallery img { aspect-ratio: 4 / 3; width: 100%; object-fit: cover; }
+</style>

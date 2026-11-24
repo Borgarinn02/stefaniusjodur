@@ -1,0 +1,8 @@
+---
+name: "Guðrún S. Gísladóttir"
+year: 2012
+photo: "/images/styrkthegar/2012A.jpg"
+photoCredit: null
+---
+
+Guðrún Snæfríður Gísladóttir útskrifaðist frá Leiklistarskóla Íslands 1977. Fyrstu árin tók hún þátt í starfi Alþýðuleikhússins en lét einnig að sér kveða í báðum stóru leikhúsunum í Reykjavík. Hún lék t.a.m. í rómaðri sýningu á *Stundarfriði* Guðmundar Steinssonar í Þjóðleikhúsinu og hjá Leikfélagi Reykjavíkur lék hún *Sölku Völku* og *Agnes barn guðs* í samnefndum leikritum. Hjá LR lék hún einnig Öldu í *Degi vonar* eftir Birgi Sigurðsson. Guðrún hefur leikið í ýmsum kvikmyndum og er hin þekktasta þeirra *Fórnin* eftir leikstjórann heimsfræga, Andrei Tarkovsky. Undanfarna tvo áratugi hefur Guðrún verið fastráðin hjá Þjóðleikhúsinu og leikið þar ótal burðarhlutverk. Árið 2005 fékk hún Grímuna fyrir hlutverk kattakonunnar í *Mýrarljósi* eftir Marínu Carr. Hin síðustu ár hefur Guðrún m.a. leikið stór hlutverk í leikritunum *Vegurinn brennur* eftir Bjarna Jónsson, *Íslandsklukkunni* eftir Halldór Laxness, *Allir synir mínir* eftir Arthur Miller og *Dagleiðin langa* eftir Eugene O’Neill. Fyrir öll þessi hlutverk hlaut hún tilnefningar til Grímuverðlauna.

@@ -1,0 +1,1448 @@
+[
+  {
+    "path": "",
+    "ts": "20241007101202",
+    "orig": "http://stefaniusjodur.is/",
+    "mime": "text/html"
+  },
+  {
+    "path": "css/gagn.css",
+    "ts": "20171015220445",
+    "orig": "http://stefaniusjodur.is/css/gagn.css",
+    "mime": "text/css"
+  },
+  {
+    "path": "css/web1.css",
+    "ts": "20171015220624",
+    "orig": "http://stefaniusjodur.is/css/web1.css",
+    "mime": "text/css"
+  },
+  {
+    "path": "highslide/highslide-full.js",
+    "ts": "20171015220220",
+    "orig": "http://stefaniusjodur.is/highslide/highslide-full.js",
+    "mime": "application/javascript"
+  },
+  {
+    "path": "highslide/highslide.css",
+    "ts": "20171015220233",
+    "orig": "http://stefaniusjodur.is/highslide/highslide.css",
+    "mime": "text/css"
+  },
+  {
+    "path": "img/1970.jpg",
+    "ts": "20160410071236",
+    "orig": "http://stefaniusjodur.is/img/1970.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/1971.jpg",
+    "ts": "20160412115648",
+    "orig": "http://stefaniusjodur.is/img/1971.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/1972.jpg",
+    "ts": "20160411115552",
+    "orig": "http://stefaniusjodur.is/img/1972.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/1974.jpg",
+    "ts": "20120403084707",
+    "orig": "http://stefaniusjodur.is/img/1974.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/1977A.jpg",
+    "ts": "20120320143444",
+    "orig": "http://stefaniusjodur.is/img/1977A.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/1977B.jpg",
+    "ts": "20120320143300",
+    "orig": "http://stefaniusjodur.is/img/1977B.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/1978.jpg",
+    "ts": "20120403084854",
+    "orig": "http://stefaniusjodur.is/img/1978.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/1979.jpg",
+    "ts": "20160412120229",
+    "orig": "http://stefaniusjodur.is/img/1979.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/1980.jpg",
+    "ts": "20120320142714",
+    "orig": "http://stefaniusjodur.is/img/1980.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/1984.jpg",
+    "ts": "20120320143156",
+    "orig": "http://stefaniusjodur.is/img/1984.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/1989A.jpg",
+    "ts": "20120320143534",
+    "orig": "http://stefaniusjodur.is/img/1989A.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/1989B.jpg",
+    "ts": "20160411175039",
+    "orig": "http://stefaniusjodur.is/img/1989B.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/1989C.jpg",
+    "ts": "20120320143746",
+    "orig": "http://stefaniusjodur.is/img/1989C.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/1989D.jpg",
+    "ts": "20120320143710",
+    "orig": "http://stefaniusjodur.is/img/1989D.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/1997A.jpg",
+    "ts": "20160411115738",
+    "orig": "http://stefaniusjodur.is/img/1997A.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/1997B.jpg",
+    "ts": "20120403083344",
+    "orig": "http://stefaniusjodur.is/img/1997B.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/1997C.jpg",
+    "ts": "20160412120300",
+    "orig": "http://stefaniusjodur.is/img/1997C.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2000A.jpg",
+    "ts": "20120403084355",
+    "orig": "http://stefaniusjodur.is/img/2000A.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2000B.jpg",
+    "ts": "20160411115706",
+    "orig": "http://stefaniusjodur.is/img/2000B.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2000C.jpg",
+    "ts": "20160411114818",
+    "orig": "http://stefaniusjodur.is/img/2000C.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2005A.jpg",
+    "ts": "20160412120211",
+    "orig": "http://stefaniusjodur.is/img/2005A.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2005B.jpg",
+    "ts": "20160410173546",
+    "orig": "http://stefaniusjodur.is/img/2005B.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2006A.jpg",
+    "ts": "20160412115639",
+    "orig": "http://stefaniusjodur.is/img/2006A.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2006B.jpg",
+    "ts": "20160411175020",
+    "orig": "http://stefaniusjodur.is/img/2006B.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2006C.jpg",
+    "ts": "20160410073242",
+    "orig": "http://stefaniusjodur.is/img/2006C.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2007A.jpg",
+    "ts": "20220130213526",
+    "orig": "http://stefaniusjodur.is/img/2007A.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2007B.jpg",
+    "ts": "20160412120219",
+    "orig": "http://stefaniusjodur.is/img/2007B.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2007C.jpg",
+    "ts": "20120403082941",
+    "orig": "http://stefaniusjodur.is/img/2007C.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2008A.jpg",
+    "ts": "20160410073447",
+    "orig": "http://stefaniusjodur.is/img/2008A.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2008B.jpg",
+    "ts": "20160412120255",
+    "orig": "http://stefaniusjodur.is/img/2008B.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2008C.jpg",
+    "ts": "20120320142932",
+    "orig": "http://stefaniusjodur.is/img/2008C.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2009A.jpg",
+    "ts": "20120320143802",
+    "orig": "http://stefaniusjodur.is/img/2009A.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2009B.jpg",
+    "ts": "20160412115614",
+    "orig": "http://stefaniusjodur.is/img/2009B.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2009C.jpg",
+    "ts": "20160305051511",
+    "orig": "http://stefaniusjodur.is/img/2009C.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2010.jpg",
+    "ts": "20110828010956",
+    "orig": "http://stefaniusjodur.is/img/2010.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2010A.jpg",
+    "ts": "20120403083549",
+    "orig": "http://stefaniusjodur.is/img/2010A.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2010B.jpg",
+    "ts": "20120403084122",
+    "orig": "http://stefaniusjodur.is/img/2010B.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2011.jpg",
+    "ts": "20120320142746",
+    "orig": "http://stefaniusjodur.is/img/2011.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2011S.jpg",
+    "ts": "20120320142431",
+    "orig": "http://stefaniusjodur.is/img/2011S.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2012A.jpg",
+    "ts": "20220130172825",
+    "orig": "http://stefaniusjodur.is/img/2012A.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2012B.jpg",
+    "ts": "20220130230735",
+    "orig": "http://stefaniusjodur.is/img/2012B.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2012C.jpg",
+    "ts": "20220131031242",
+    "orig": "http://stefaniusjodur.is/img/2012C.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2013.jpg",
+    "ts": "20220130172823",
+    "orig": "http://stefaniusjodur.is/img/2013.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2014A.jpg",
+    "ts": "20160410072329",
+    "orig": "http://stefaniusjodur.is/img/2014A.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2014B.jpg",
+    "ts": "20160411115041",
+    "orig": "http://stefaniusjodur.is/img/2014B.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2015A.jpg",
+    "ts": "20160411120051",
+    "orig": "http://stefaniusjodur.is/img/2015A.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2015B.jpg",
+    "ts": "20160411175032",
+    "orig": "http://stefaniusjodur.is/img/2015B.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2015C.jpg",
+    "ts": "20220131031051",
+    "orig": "http://stefaniusjodur.is/img/2015C.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2016A.jpg",
+    "ts": "20220131014952",
+    "orig": "http://stefaniusjodur.is/img/2016A.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/2016B.jpg",
+    "ts": "20220130222757",
+    "orig": "http://stefaniusjodur.is/img/2016B.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/anna1.jpg",
+    "ts": "20140422082316",
+    "orig": "http://stefaniusjodur.is/img/anna1.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/anna2.jpg",
+    "ts": "20140421132548",
+    "orig": "http://stefaniusjodur.is/img/anna2.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/anna3.jpg",
+    "ts": "20140421220859",
+    "orig": "http://stefaniusjodur.is/img/anna3.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/background.jpg",
+    "ts": "20171031131355",
+    "orig": "http://stefaniusjodur.is/img/background.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/banner.jpg",
+    "ts": "20171031131923",
+    "orig": "http://stefaniusjodur.is/img/banner.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/geirborg.jpg",
+    "ts": "20140422115232",
+    "orig": "http://stefaniusjodur.is/img/geirborg.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/poul1.jpg",
+    "ts": "20140422112927",
+    "orig": "http://stefaniusjodur.is/img/poul1.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/poul2.jpg",
+    "ts": "20140421080222",
+    "orig": "http://stefaniusjodur.is/img/poul2.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/pouloganna.jpg",
+    "ts": "20140422135547",
+    "orig": "http://stefaniusjodur.is/img/pouloganna.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/stefania1.jpg",
+    "ts": "20160411175035",
+    "orig": "http://stefaniusjodur.is/img/stefania1.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/stefania2.jpg",
+    "ts": "20160411175012",
+    "orig": "http://stefaniusjodur.is/img/stefania2.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/stefania3.jpg",
+    "ts": "20140421195812",
+    "orig": "http://stefaniusjodur.is/img/stefania3.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/stjaki.gif",
+    "ts": "20171015220422",
+    "orig": "http://stefaniusjodur.is/img/stjaki.gif",
+    "mime": "image/gif"
+  },
+  {
+    "path": "img/stjakinn.gif",
+    "ts": "20160412115700",
+    "orig": "http://stefaniusjodur.is/img/stjakinn.gif",
+    "mime": "image/gif"
+  },
+  {
+    "path": "img/styrkhafar_2012.jpg",
+    "ts": "20220102000433",
+    "orig": "http://stefaniusjodur.is/img/styrkhafar_2012.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/styrkthegar2.jpg",
+    "ts": "20220102000435",
+    "orig": "http://stefaniusjodur.is/img/styrkthegar2.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "img/styrkthegar3.jpg",
+    "ts": "20220102000440",
+    "orig": "http://stefaniusjodur.is/img/styrkthegar3.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "index.php?m=&id=M2014",
+    "ts": "20240623181139",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M2014",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=A1&id=M2014",
+    "ts": "20240623191113",
+    "orig": "http://stefaniusjodur.is/index.php?m=A1&id=M2014",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M2015",
+    "ts": "20240521002204",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M2015",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=A1&id=M2015",
+    "ts": "20240814001152",
+    "orig": "http://stefaniusjodur.is/index.php?m=A1&id=M2015",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M2016",
+    "ts": "20240521015939",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M2016",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=A1&id=M2016",
+    "ts": "20240916092322",
+    "orig": "http://stefaniusjodur.is/index.php?m=A1&id=M2016",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M2017",
+    "ts": "20240725194247",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M2017",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=A1&id=M2017",
+    "ts": "20240422002142",
+    "orig": "http://stefaniusjodur.is/index.php?m=A1&id=M2017",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_1970",
+    "ts": "20240916092003",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_1970",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_1971",
+    "ts": "20240814014734",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_1971",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_1972",
+    "ts": "20240814002727",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_1972",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_1974",
+    "ts": "20240725182740",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_1974",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_1977A",
+    "ts": "20240520235353",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_1977A",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_1977B",
+    "ts": "20240623171422",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_1977B",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_1978",
+    "ts": "20240520235601",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_1978",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_1979",
+    "ts": "20221207101003",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_1979",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_1980",
+    "ts": "20240521000118",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_1980",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_1984",
+    "ts": "20240916104111",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_1984",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_1989A",
+    "ts": "20240814013357",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_1989A",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_1989B",
+    "ts": "20240521015201",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_1989B",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_1989C",
+    "ts": "20240814000505",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_1989C",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_1989D",
+    "ts": "20221207094708",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_1989D",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_1997A",
+    "ts": "20240725190650",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_1997A",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_1997B",
+    "ts": "20240814013543",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_1997B",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_1997C",
+    "ts": "20240814015759",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_1997C",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_1STYRKIR",
+    "ts": "20240422003955",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_1STYRKIR",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=A1&id=M_1STYRKIR",
+    "ts": "20240521000541",
+    "orig": "http://stefaniusjodur.is/index.php?m=A1&id=M_1STYRKIR",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2000A",
+    "ts": "20240520235855",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2000A",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2000B",
+    "ts": "20240725184135",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2000B",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2000C",
+    "ts": "20240422000837",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2000C",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2005A",
+    "ts": "20240421234652",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2005A",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2005B",
+    "ts": "20240623182058",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2005B",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2006A",
+    "ts": "20240422004616",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2006A",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2006B",
+    "ts": "20240916081643",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2006B",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2006C",
+    "ts": "20240725183835",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2006C",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2007A",
+    "ts": "20221207093555",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2007A",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2007B",
+    "ts": "20240725191050",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2007B",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2007C",
+    "ts": "20240521013202",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2007C",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2008A",
+    "ts": "20241007120442",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2008A",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2008B",
+    "ts": "20240623191742",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2008B",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2008C",
+    "ts": "20240725182537",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2008C",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2009A",
+    "ts": "20240623170454",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2009A",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2009B",
+    "ts": "20221207095840",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2009B",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2009C",
+    "ts": "20240814012726",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2009C",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2010A",
+    "ts": "20240814014411",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2010A",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2010B",
+    "ts": "20240520235255",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2010B",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2011",
+    "ts": "20240623185008",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2011",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2012A",
+    "ts": "20240623183713",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2012A",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2012B",
+    "ts": "20240814015925",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2012B",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2012C",
+    "ts": "20240725182107",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2012C",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2013",
+    "ts": "20241007120256",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2013",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2014A",
+    "ts": "20241007115228",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2014A",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2014B",
+    "ts": "20240623185618",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2014B",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2015A",
+    "ts": "20240521000010",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2015A",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2015B",
+    "ts": "20240725184350",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2015B",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2015C",
+    "ts": "20240725191454",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2015C",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2016A",
+    "ts": "20240521010646",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2016A",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2016B",
+    "ts": "20240623184520",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2016B",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2017A",
+    "ts": "20221207085445",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2017A",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_2017B",
+    "ts": "20240623171058",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_2017B",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_MYNDASAFN",
+    "ts": "20240521010042",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_MYNDASAFN",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=A1&id=M_MYNDASAFN",
+    "ts": "20240521014826",
+    "orig": "http://stefaniusjodur.is/index.php?m=A1&id=M_MYNDASAFN",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_NYJASTA",
+    "ts": "20131208030442",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_NYJASTA",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_POUL_ANNA",
+    "ts": "20240725184859",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_POUL_ANNA",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=A1&id=M_POUL_ANNA",
+    "ts": "20240916080928",
+    "orig": "http://stefaniusjodur.is/index.php?m=A1&id=M_POUL_ANNA",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_S2012",
+    "ts": "20240521005643",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_S2012",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=A1&id=M_S2012",
+    "ts": "20240725185724",
+    "orig": "http://stefaniusjodur.is/index.php?m=A1&id=M_S2012",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_S2013",
+    "ts": "20240725194439",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_S2013",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=A1&id=M_S2013",
+    "ts": "20241007105743",
+    "orig": "http://stefaniusjodur.is/index.php?m=A1&id=M_S2013",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_SAGAN",
+    "ts": "20240521014751",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_SAGAN",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=A1&id=M_SAGAN",
+    "ts": "20240623190052",
+    "orig": "http://stefaniusjodur.is/index.php?m=A1&id=M_SAGAN",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_SJODURINN&m=A1",
+    "ts": "20231201061934",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_SJODURINN&m=A1",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=A1&id=M_SJODURINN&m=A1",
+    "ts": "20220813212403",
+    "orig": "http://stefaniusjodur.is/index.php?m=A1&id=M_SJODURINN&m=A1",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_STEFANIA",
+    "ts": "20240623172958",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_STEFANIA",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=A1&id=M_STEFANIA",
+    "ts": "20240623171017",
+    "orig": "http://stefaniusjodur.is/index.php?m=A1&id=M_STEFANIA",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?id=M_STJAKINN",
+    "ts": "20240521003556",
+    "orig": "http://stefaniusjodur.is/index.php?id=M_STJAKINN",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=&id=M_STJAKINN",
+    "ts": "20240623164605",
+    "orig": "http://stefaniusjodur.is/index.php?m=&id=M_STJAKINN",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=A1&id=M_STJAKINN",
+    "ts": "20240623181616",
+    "orig": "http://stefaniusjodur.is/index.php?m=A1&id=M_STJAKINN",
+    "mime": "text/html"
+  },
+  {
+    "path": "index.php?m=L&type=",
+    "ts": "20220501101936",
+    "orig": "http://stefaniusjodur.is/index.php?m=L&type=",
+    "mime": "text/html"
+  },
+  {
+    "path": "myndasafn/M2010A.jpg",
+    "ts": "20160716212820",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010A.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010As.jpg",
+    "ts": "20220102000414",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010As.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010B.jpg",
+    "ts": "20160715224732",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010B.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010Bs.jpg",
+    "ts": "20220102000404",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010Bs.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010C.jpg",
+    "ts": "20160715172336",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010C.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010Cs.jpg",
+    "ts": "20220102000412",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010Cs.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010D.jpg",
+    "ts": "20160715172358",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010D.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010Ds.jpg",
+    "ts": "20160412115627",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010Ds.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010E.jpg",
+    "ts": "20160716212736",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010E.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010Es.jpg",
+    "ts": "20220102000402",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010Es.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010F.jpg",
+    "ts": "20160716172552",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010F.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010Fs.jpg",
+    "ts": "20220102000413",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010Fs.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010G.jpg",
+    "ts": "20160716212935",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010G.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010Gs.jpg",
+    "ts": "20220102000411",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010Gs.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010H.jpg",
+    "ts": "20160716213100",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010H.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010Hs.jpg",
+    "ts": "20220102000425",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010Hs.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010I.jpg",
+    "ts": "20160716172635",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010I.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010Is.jpg",
+    "ts": "20220102000422",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010Is.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010J.jpg",
+    "ts": "20160729173237",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010J.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010Js.jpg",
+    "ts": "20220102000423",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010Js.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010K.jpg",
+    "ts": "20160715212630",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010K.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010Ks.jpg",
+    "ts": "20220102000407",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010Ks.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010L.jpg",
+    "ts": "20160715172434",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010L.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010Ls.jpg",
+    "ts": "20220102000411",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010Ls.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2010Ms.jpg",
+    "ts": "20220102000403",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2010Ms.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2011A.jpg",
+    "ts": "20160715212709",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2011A.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2011As.jpg",
+    "ts": "20220102000406",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2011As.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2011B.jpg",
+    "ts": "20160716213009",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2011B.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2011Bs.jpg",
+    "ts": "20220102000405",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2011Bs.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2012As.jpg",
+    "ts": "20220102000413",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2012As.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2013A.jpg",
+    "ts": "20160716212857",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2013A.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2013As.jpg",
+    "ts": "20220102000409",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2013As.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2013B.jpg",
+    "ts": "20160729173254",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2013B.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2013Bs.jpg",
+    "ts": "20220102000401",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2013Bs.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2013C.jpg",
+    "ts": "20160715224539",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2013C.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2013Cs.jpg",
+    "ts": "20220102000419",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2013Cs.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2013D.jpg",
+    "ts": "20160715224627",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2013D.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2013Ds.jpg",
+    "ts": "20220102000420",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2013Ds.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2013Es.jpg",
+    "ts": "20220102000440",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2013Es.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2013s.jpg",
+    "ts": "20140421115113",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2013s.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014.jpg",
+    "ts": "20150224185214",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014A.jpg",
+    "ts": "20160715172415",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014A.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014As.jpg",
+    "ts": "20220102000409",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014As.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014B.jpg",
+    "ts": "20160716172743",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014B.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014Bs.jpg",
+    "ts": "20160412115643",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014Bs.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014C.jpg",
+    "ts": "20160716172536",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014C.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014Cs.jpg",
+    "ts": "20220102000415",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014Cs.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014D.jpg",
+    "ts": "20160716212841",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014D.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014Ds.jpg",
+    "ts": "20220102000416",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014Ds.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014E.jpg",
+    "ts": "20160716213122",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014E.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014Es.jpg",
+    "ts": "20220102000405",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014Es.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014F.jpg",
+    "ts": "20160715224604",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014F.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014Fs.jpg",
+    "ts": "20220102000407",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014Fs.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014G.jpg",
+    "ts": "20160715224716",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014G.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014Gs.jpg",
+    "ts": "20160412120207",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014Gs.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014Hs.jpg",
+    "ts": "20220102000413",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014Hs.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014I.jpg",
+    "ts": "20160715212653",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014I.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014Is.jpg",
+    "ts": "20220102000410",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014Is.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014J.jpg",
+    "ts": "20160716172717",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014J.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014Js.jpg",
+    "ts": "20220102000418",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014Js.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014K.jpg",
+    "ts": "20160716172610",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014K.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014Ks.jpg",
+    "ts": "20220102000404",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014Ks.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2014s.jpg",
+    "ts": "20220102000426",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2014s.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015.jpg",
+    "ts": "20160315065607",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015A.jpg",
+    "ts": "20160716172702",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015A.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015As.jpg",
+    "ts": "20220102000414",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015As.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015B.jpg",
+    "ts": "20160714225239",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015B.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015Bs.jpg",
+    "ts": "20220102000411",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015Bs.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015C.jpg",
+    "ts": "20160715224521",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015C.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015Cs.jpg",
+    "ts": "20220102000402",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015Cs.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015D.jpg",
+    "ts": "20160715224703",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015D.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015Ds.jpg",
+    "ts": "20220102000421",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015Ds.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015Es.jpg",
+    "ts": "20220102000407",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015Es.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015F.jpg",
+    "ts": "20160716172505",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015F.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015Fs.jpg",
+    "ts": "20220102000418",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015Fs.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015G.jpg",
+    "ts": "20160716213026",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015G.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015Gs.jpg",
+    "ts": "20220102000425",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015Gs.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015H.jpg",
+    "ts": "20160716172806",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015H.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015Hs.jpg",
+    "ts": "20220102000406",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015Hs.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015I.jpg",
+    "ts": "20160716212918",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015I.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015Is.jpg",
+    "ts": "20220102000404",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015Is.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015J.jpg",
+    "ts": "20160715224804",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015J.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015Js.jpg",
+    "ts": "20220102000406",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015Js.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015s.jpg",
+    "ts": "20220102000444",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015s.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2015X.jpg",
+    "ts": "20220102000446",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2015X.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M20162.jpg",
+    "ts": "20180830200053",
+    "orig": "http://stefaniusjodur.is/myndasafn/M20162.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2016s.jpg",
+    "ts": "20220102000500",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2016s.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2016s2.jpg",
+    "ts": "20171015220552",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2016s2.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2017.jpg",
+    "ts": "20220331105345",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2017.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "path": "myndasafn/M2017B.jpg",
+    "ts": "20220331105340",
+    "orig": "http://stefaniusjodur.is/myndasafn/M2017B.jpg",
+    "mime": "image/jpeg"
+  }
+]

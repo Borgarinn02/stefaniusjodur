@@ -1,0 +1,26 @@
+---
+name: "Þorsteinn Gunnarsson"
+year: 1972
+photo: "/images/styrkthegar/1972.jpg"
+photoCredit: null
+---
+
+var aðeins seytján
+ára gamall þegar hann kom fram í fyrsta hlutverki sínu hjá L.R.  Hann varð síðar
+fastráðinn leikari hjá félaginu í þrjá áratugi, auk þess sem hann leikstýrði
+mörgum sýningum. Á árunum 1980 til 1983 var Þorsteinn leikhússtjóri L.R. ásamt
+Stefáni Baldurssyni.  Þorsteinn lék
+einnig nokkrum sinnum í Þjóðleikhúsinu, hann hefur leikið í nokkrum kvikmyndum
+og unnið mikið í útvarpi og sjónvarpi, bæði sem leikari og leikstjóri. Af
+stærstu hlutverkum Þorsteins má nefna Umba í *Kristnihaldi undir Jökli* Halldórs Laxness, Kormák í *Skjaldhömrum *Jónasar Árnasonar,
+Petrútsíó í *Ótemju *Shakespeares, H.C.
+Andersen í *Úr lífi Regnormanna* eftir
+P.O. Enquist, Arnas Arnæus í *Íslandsklukku*
+Laxness, Pressarann í *Dúfnaveislu*
+sama skálds, Meistarann í *Ég er
+meistarinn* eftir Hrafnhildi Guðmundsdóttur Hagalín, Leópold Netlan í *Largo desolato* eftir Václav Havel og
+Faust í *Faust-*leik Vesturports.  Þorsteinn er menntaður arkitekt og einn
+þriggja arkitekta Borgarleikhússins. Hann hefur um árabil unnið ötullega að
+endurreisn merkra bygginga á Íslandi, m.a. Viðeyjarstofu og Viðeyjarkirkju,
+Nesstofu og Bessastaðastofu, Stjórnarráðshússins og Alþingishússins,
+Dómkirkjunnar í Reykjavík og Hóladómkirkju.

@@ -1,0 +1,26 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+const all = (await getCollection('styrkthegar')).sort((a, b) => b.data.year - a.data.year || a.data.name.localeCompare(b.data.name, 'is'));
+const byYear = Map.groupBy(all, (r) => r.data.year);
+---
+<Base title="Styrkþegar">
+  <h1>Styrkþegar</h1>
+  <p class="prose muted">Frá árinu 1970 hafa {all.length} leikarar og leiklistarfólk hlotið styrk úr Minningarsjóði frú Stefaníu Guðmundsdóttur.</p>
+  {[...byYear].map(([year, people]) => (
+    <section>
+      <h2 class="year-heading">{year}</h2>
+      <div class="grid">
+        {people.map((p) => (
+          <a class="card" href={`/styrkthegar/${p.id}`}>
+            {p.data.photo
+              ? <img src={p.data.photo} alt={p.data.name} loading="lazy" />
+              : <div class="no-photo">Mynd vantar</div>}
+            <h3>{p.data.name}</h3>
+          </a>
+        ))}
+      </div>
+    </section>
+  ))}
+</Base>
