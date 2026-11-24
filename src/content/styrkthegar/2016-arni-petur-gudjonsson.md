@@ -5,7 +5,7 @@ photo: "/images/styrkthegar/2016A.jpg"
 photoCredit: null
 ---
 
-(f. 19.8.1951) lærði leiklist við Statens Teaterskole í Danmörku 1973 og Leiklistarskóla Íslands (framhalds og endurmenntun) 1985-87.
+Árni Pétur Guðjónsson (f. 19.8.1951) lærði leiklist við Statens Teaterskole í Danmörku 1973 og Leiklistarskóla Íslands (framhalds og endurmenntun) 1985-87.
 
 Hann vann hjá Kraka Nordisk Teatergruppe 1977-1982, Leikfélagi Reykjavikur 1989-2002 og einnig hjá Þjóðleikhúsinu.
 

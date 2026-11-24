@@ -5,7 +5,7 @@ photo: "/images/styrkthegar/2016B.jpg"
 photoCredit: null
 ---
 
-lauk B.F.A. gráðu í leiklist frá Listaháskóla Íslands vorið 2003..
+Björn Thors lauk B.F.A. gráðu í leiklist frá Listaháskóla Íslands vorið 2003..
 
 Hann hefur leikið fjölda hlutverka hjá Þjóðleikhúsinu, Borgarleikhúsinu, Vesturporti og víða um Evrópu.
 

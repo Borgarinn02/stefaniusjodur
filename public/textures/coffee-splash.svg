@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <filter id="rough" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="3" seed="11" result="t"/>
+      <feDisplacementMap in="SourceGraphic" in2="t" scale="30"/>
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+  </defs>
+  <g filter="url(#rough)" fill="#7a4a22">
+    <ellipse cx="150" cy="150" rx="70" ry="55" fill-opacity="0.07"/>
+    <circle cx="235" cy="110" r="9" fill-opacity="0.08"/>
+    <circle cx="70" cy="215" r="6" fill-opacity="0.08"/>
+    <circle cx="250" cy="200" r="4" fill-opacity="0.1"/>
+  </g>
+</svg>

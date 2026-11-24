@@ -5,17 +5,17 @@ photo: "/images/styrkthegar/2007B.jpg"
 photoCredit: "Eddi"
 ---
 
-útskrifaðist frá
+Elva Ósk Ólafsdóttir útskrifaðist frá
 Leiklistarskóla Íslands 1989. Að námi loknu lék hún fyrst með Leikfélagi
 Akureyrar, meðal annars Snæfríði Íslandssól í *Íslandsklukkunni.*  Hún lék um
 skeið hjá Leikfélagi Reykjavíkur, en frá 1995 hefur hún starfað við
 Þjóðleikhúsið. Meðal stórra hlutverka, sem hún hefur leikið, eru Hildur í *Ég er meistarinn* Hrafnhildar Hagalín,
-Prinsessan í *Snædrottningunni *eftir
-Schwartz, Carol í *Oleönnu *Davids
+Prinsessan í *Snædrottningunni* eftir
+Schwartz, Carol í *Oleönnu* Davids
 Mamets, Rósalind í *Sem yður þóknast*
-Shakespeares, Bryndís í *Óskastjörnunni *eftir
+Shakespeares, Bryndís í *Óskastjörnunni* eftir
 Birgi Sigurðsson, Nóra í *Brúðuheimili*
 Ibsens, Alison í *Horfðu reiður um öxl*
 Osbornes og titilhlutverkið í *Vilja Emmu*
 eftir David Hare. Hún hefur ennfremur leikið í nokkrum kvikmyndum, meðal annars
-í *Stuttum frakka*, *Benjamín dúfu*, *Ikingut *og *Hafinu*.
+í *Stuttum frakka*, *Benjamín dúfu*, *Ikingut* og *Hafinu*.

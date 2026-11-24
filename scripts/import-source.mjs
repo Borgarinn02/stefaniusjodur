@@ -28,7 +28,26 @@ function imgPath(p) {
   if (/^\d{4}/.test(name)) return '/images/styrkthegar/' + name;
   return '/images/' + name;
 }
-const fixImages = (md) => md.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_, alt, src) => `![${alt}](${imgPath(src)})`);
+// The old HTML often had spaces inside <em> ("<em>Dauðadansi </em>"), which breaks Markdown
+// emphasis. Pair up single '*' per paragraph and move stray whitespace outside the markers.
+function fixEmphasis(md) {
+  md = md
+    .replace(/(\p{L})\*\*(\p{L})/gu, '$1$2')   // <em>Amadeus</em><em>i</em> -> one word
+    .replace(/\*\*\*(?=\s|$)/gm, '*')          // closing em followed by an empty <em></em>
+    .replace(/(\p{L})\*\*(\s+)\*(?=\p{L})/gu, '$1*$2') // "*Óvitum** *Guðrúnar": close em + empty <em> </em>
+    .replace(/\*\*\n(?=\S)/g, '**');            // bold opened at the end of a line
+  return md.split(/\n{2,}/).map((para) => {
+    const parts = para.split(/(?<!\*)\*(?!\*)/);
+    if (parts.length < 3 || parts.length % 2 === 0) return para; // unbalanced: leave alone
+    return parts.map((seg, i) => {
+      if (i % 2 === 0) return seg;
+      const lead = seg.match(/^\s*/)[0], trail = seg.match(/\s*$/)[0];
+      const core = seg.trim();
+      return core ? `${lead}*${core}*${trail}` : seg;
+    }).join('');
+  }).join('\n\n');
+}
+const fixImages = (md) => fixEmphasis(md.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_, alt, src) => `![${alt}](${imgPath(src)})`));
 const yaml = (v) => JSON.stringify(v ?? null); // JSON strings are valid YAML scalars
 
 function body(file) {

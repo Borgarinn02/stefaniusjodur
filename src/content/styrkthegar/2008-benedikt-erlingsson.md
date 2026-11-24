@@ -5,7 +5,7 @@ photo: "/images/styrkthegar/2008B.jpg"
 photoCredit: null
 ---
 
-útskrifaðist frá Leiklistarskóla Íslands vorið 1994.  Hann hefur verið afkastamikill leikari og
+Benedikt Erlingsson útskrifaðist frá Leiklistarskóla Íslands vorið 1994.  Hann hefur verið afkastamikill leikari og
 leikstjóri og sett upp og leikið í fjölda sýninga á eigin vegum, í
 Þjóðleikhúsi, Borgarleikhúsi og Landnámssetrinu í Borgarnesi. Meðal hlutverka
 hans eru *Galdra-Loftur* Jóhanns

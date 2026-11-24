@@ -5,7 +5,7 @@ photo: "/images/styrkthegar/2014B.jpg"
 photoCredit: null
 ---
 
-hefur leikið í rúmlega fjörutíuleiksýningum, bæði á Íslandi og erlendis.
+Ólafur Darri Ólafsson hefur leikið í rúmlega fjörutíuleiksýningum, bæði á Íslandi og erlendis.
 Í Borgarleikhúsinu hefur hann m.a. leikið í *Hamlet*, *Músum og mönnum*, *Kristnihaldi undir Jökli* og *Sumargestum*, hjá Þjóðleikhúsinu hefur hann m.a. komið fram í *Gerplu*, *Íslandsklukkunni*, *Pétri Gaut* og *Lé konungi*. Ólafur Darri er einn af stofnendum Vesturports og þar hefur hann m.a. leikið í *Rómeó og Júlíu*, *Kringlunni rústað*, *Títusi*, *Bastards* og *Glæpi gegn diskóinu*. Auk þess hefur Ólafur Darri leikið með sjálfstæðu leik- og danshópunum, Á senunni, EGG-leikhúsinu, Lab Loka, Shalala. Haustið 2011 lék Ólafur Darri hlutverk Pierre í leikritinu *The Heart of Robin Hood* hjá Royal Shakespeare Company í Stratford upon Avon.
 
 Ólafur Darri hefur leikið í rúmlega 20 kvikmyndum, bæði á Íslandi, í Bretlandi og Bandaríkjunum, m.a. *Börnum*, *A Walk Among The Tombstones*, *Brúðgumanum*, *Contraband*, *XL* og *Reykjavik Rotterdam*. Hann hefur auk þess framleitt kvikmyndir bæði með Vesturporti og fyrir sitt eigið fyrirtæki Stór og smá ehf. Auk þess hefur Ólafur Darri leikið í sjónvarpsþáttaröðum bæði hér á landi sem og erlendis. Hann hefur unnið með flestum af fremstu leikstjórum á Íslandi m.a. Baltasar Kormáki, Marteini Þórssyni, Jóni Páli Eyjólfssyni, Ragnari Bragasyni, Viðari Eggertssyni, Benedikt Erlingssyni, Hilmi Snæ Guðnasyni, Agli Heiðari Antoni Pálssyni, Hilmari Jónssyni o.fl. Erlendis hefur Ólafur Darri meðal annars unnið með Jonathan Demme, Cary Fukunaga, Scott Frank, O.C Madsen og Ben Stiller.

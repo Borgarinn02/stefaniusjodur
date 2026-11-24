@@ -5,7 +5,7 @@ photo: "/images/styrkthegar/1989D.jpg"
 photoCredit: null
 ---
 
-útskrifaðist frá Leiklistaskóla
+Þór H. Tulinius útskrifaðist frá Leiklistaskóla
 Íslands 1985 og hlaut styrk til námsdvalar í París 1985-86, þar sem hann
 starfaði sem leikari hjá franska þjóðleikhúsinu. Þór hefur starfað hjá
 Þjóðleikhúsinu, Leikfélagi Reykjavíkur og Þjóðleikhúsinu, bæði sem leikstjóri

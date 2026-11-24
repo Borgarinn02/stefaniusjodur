@@ -5,7 +5,7 @@ photo: "/images/styrkthegar/2007C.jpg"
 photoCredit: "Halldóra Sigríður"
 ---
 
-útskrifaðist frá
+Sigrún Edda Björnsdóttir útskrifaðist frá
 Leiklistarskóla Íslands árið 1981.  Hún
 hefur verið fastráðin leikkona bæði hjá Þjóðleikhúsinu og Leikfélagi
 Reykjavíkur og leikið mörg burðarhlutverk í báðum leikhúsum. Meðal þeira má

@@ -45,6 +45,6 @@ Fjölskylda Stefaníu og Borgþórs átti eftir að setja mark sitt á reykvísk
 
 Erjur og leiðindi urðu ekki lokaþættir sögunnar. Um merkan feril Önnu er rætt hér annars staðar á síðunni og dæturnar Þóra og Emilía áttu báðar eftir að leika mikið með L.R., einkum Þóra, sem var m.a. í fyrsta leikarahópi Þjóðleikhússins. Þær höfðu minningu móður sinnar í miklum hávegum, svo miklum að mörgum þótti nóg um. Minning Stefaníu hlaut að ummyndast í glansmynd, þegar svona var á málum haldið, og það var ekki fyrr en sá sem skrifar þessi orð sendi frá sér tvær bækur um líf og list Stefaníu og samtíðarmanna hennar á árunum 1996 til 97 að reynt var að rýna í veruleikann að baki þeirrar myndar.
 
-*Jón Viðar Jónsson *
+*Jón Viðar Jónsson* 
 
 ![](/images/stefania3.jpg)

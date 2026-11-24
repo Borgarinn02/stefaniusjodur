@@ -5,7 +5,7 @@ photo: "/images/styrkthegar/1989B.jpg"
 photoCredit: "Halldóra Sigríður"
 ---
 
-útskrifaðist frá
+Helgi Björnsson útskrifaðist frá
 Leiklistarskóla Íslands árið 1983 og lék næstu ár mikið hjá Leikfélagi
 Reykjavíkur. Meðal stærstu hlutverka hans þar eru Danni í *Djöflaeyjunni*, leikgerð Kjartans Ragnarssonar eftir sögu Einars
 Kárasonar, Ljósvíkingurinn í *Ljósi

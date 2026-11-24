@@ -5,7 +5,7 @@ photo: "/images/styrkthegar/1980.jpg"
 photoCredit: null
 ---
 
-stundaði nám í leikhús- og kvikmyndafræðum við Stokkhólmsháskóla
+Stefán Baldursson stundaði nám í leikhús- og kvikmyndafræðum við Stokkhólmsháskóla
 og lauk prófi þaðan árið 1971.  Hann
 starfaði um skeið við leiklistardeild Útvarpsins og vann jafnframt að gerð
 sjónvarpsþátta. Stefán tók snemma að starfa við leikstjórn og hefur stjórnað
@@ -13,7 +13,7 @@ sýningum í flestum leikhúsum landsins.
 Meðal verka sem hann hefur sett upp eru *Góða sálin í Sezuan* eftir Brecht, *Grænjaxlar* Péturs Gunnarssonar, *Gísl*
 Brendans Behans, *Dagur vonar* og *Dínamít* eftir Birgi Sigurðsson,
 söngleikurinn *My fair Lady*, leikrit
-Ibsens *Villiöndin* og *Brúðuheimili *og *Veislan *eftir Thomas Vinterberg og Mogens Rukov.  Þá hefur Stefán sett upp fjögur leikrit
+Ibsens *Villiöndin* og *Brúðuheimili* og *Veislan* eftir Thomas Vinterberg og Mogens Rukov.  Þá hefur Stefán sett upp fjögur leikrit
 Guðmundar Steinssonar, öll í Þjóðleikhúsinu: *Lúkas*, *Stundarfrið*, *Brúðarmyndina* og *Stakkaskipti*.  Stefán var
 leikhússtjóri L.R. frá 1980 til 1987, fyrstu þrjú árin ásamt Þorsteini
 Gunnarssyni.  Þá hefur hann stjórnað

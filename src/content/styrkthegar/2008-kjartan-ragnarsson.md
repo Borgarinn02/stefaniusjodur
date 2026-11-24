@@ -5,7 +5,7 @@ photo: "/images/styrkthegar/2008C.jpg"
 photoCredit: null
 ---
 
-lauk námi frá Leiklistarskóla Leikfélags Reykjavíkur árið 1966 og lék á
+Kjartan Ragnarsson lauk námi frá Leiklistarskóla Leikfélags Reykjavíkur árið 1966 og lék á
 næstu árum í mörgum sýningum félagsins.  Hann
 sneri sér brátt að leikstjórn og leikritagerð, auk þess sem hann hefur leikgert
 fjölda skáldverka, svo sem nokkur verk Halldórs Laxness: *Ljós heimsins*, *Höll

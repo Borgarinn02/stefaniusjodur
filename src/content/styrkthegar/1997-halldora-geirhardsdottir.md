@@ -8,8 +8,8 @@ photoCredit: "Halldóra Sigríður"
 Halldóra Geirharðsdóttir lauk prófi frá Leiklistarskóla Íslands árið
 1995. Hún var þegar að námi loknu ráðin til Leikfélags Reykjavíkur þar sem hún
 hefur starfað síðan. Meðal stórra hlutverka Halldóru í Borgarleikhúsinu eru
-Anna Sergejevna Odíntsova í *Feðrum og sonum
-*Turgenjevs, fíflið í *Lé konungi*
+Anna Sergejevna Odíntsova í *Feðrum og sonum*
+Turgenjevs, fíflið í *Lé konungi*
 Shakespeares, Hermíone drottning í *Sumarævintýri*,
 leikgerð Benedikts Erlingssonar á *Vetrarævintýri*
 Shakespeares, Sigurlína í *Sölku Völku*

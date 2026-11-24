@@ -1,4 +1,5 @@
 ---
+import { u } from '../../lib/url';
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 
@@ -11,11 +12,11 @@ const { Content } = await render(r);
 const hasBio = Boolean(r.body?.trim());
 ---
 <Base title={r.data.name}>
-  <p><a href="/styrkthegar">← Allir styrkþegar</a></p>
+  <p><a href={u('/styrkthegar')}>← Allir styrkþegar</a></p>
   <article class="profile">
     {r.data.photo && (
       <figure>
-        <img src={r.data.photo} alt={r.data.name} />
+        <img class="mounted" src={u(r.data.photo)} alt={r.data.name} />
         {r.data.photoCredit && <figcaption class="muted">Ljósmynd: {r.data.photoCredit}</figcaption>}
       </figure>
     )}
@@ -31,5 +32,5 @@ const hasBio = Boolean(r.body?.trim());
   .profile { display: grid; gap: 2rem; }
   @media (min-width: 48rem) { .profile { grid-template-columns: 16rem 1fr; align-items: start; } }
   figure { margin: 0; }
-  figcaption { font: .8rem var(--sans); margin-top: .5rem; }
+  figcaption { font: .8rem var(--serif); margin-top: .5rem; }
 </style>

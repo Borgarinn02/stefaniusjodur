@@ -5,7 +5,7 @@ photo: "/images/styrkthegar/2005B.jpg"
 photoCredit: "Halldóra Sigríður"
 ---
 
-ólst upp í Noregi þar sem
+Gísli Örn Garðarsson ólst upp í Noregi þar sem
 hann kom fyrst fram sem leikari. Hann útskrifaðist frá leiklistardeild
 Listaháskóla Íslands árið 2001. Hann er einn af stofnendum Vesturports og hefur
 tekið þátt í flestum verkefnum hópsins, leiksýningum og kvikmyndum, sem

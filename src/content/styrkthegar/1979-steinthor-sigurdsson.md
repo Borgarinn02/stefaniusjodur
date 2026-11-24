@@ -5,7 +5,7 @@ photo: "/images/styrkthegar/1979.jpg"
 photoCredit: null
 ---
 
-leikmyndateiknari varð fyrstur leiklistarmanna utan
+Steinþór Sigurðsson leikmyndateiknari varð fyrstur leiklistarmanna utan
 leikarastéttarinnar til að hljóta styrk úr Minningasjóðnum. Steinþór
 var þá löngu kominn í röð fremstu leikmyndateiknara þjóðarinnar. Hann
 stundaði nám í Stokkhólmi á árunum 1951 til 1955, dvaldi á Spáni um

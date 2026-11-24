@@ -5,7 +5,7 @@ photo: "/images/styrkthegar/1997C.jpg"
 photoCredit: null
 ---
 
-lauk fil.kand.-prófi í
+Jón Viðar Jónsson lauk fil.kand.-prófi í
 leiklistarfræðum, sagnfræði og heimspeki frá Stokkhólmsháskóla árið 1978. Hann
 var leiklistarstjóri Útvarps frá 1982 til 1991.
 Hann lauk doktorsprófi frá Stokkhólmsháskóla árið 1996 og sendi ári
