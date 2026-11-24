@@ -6,7 +6,7 @@ Ný vefsíða fyrir Minningarsjóð frú Stefaníu Guðmundsdóttur, byggð með
 
 ```sh
 npm install
-npm run dev      # http://localhost:4321
+npm run dev      # http://localhost:4321/stefaniusjodur/
 npm run build    # static site in dist/
 ```
 
@@ -49,3 +49,12 @@ The home page automatically shows the newest year's recipients.
 `_source/` holds the old site as scraped from the Wayback Machine (the original domain is gone).
 See `_source/README.md` for what is missing. `npm run import-source` regenerates the content from it.
 **Don't re-run it after editing content by hand**, because it overwrites `src/content/`.
+
+## Hosting
+
+Every push to `main` builds the site and deploys it to GitHub Pages through `.github/workflows/deploy.yml`:
+https://borgarinn02.github.io/stefaniusjodur/
+
+The site is served under the `/stefaniusjodur/` sub-path, so internal links in templates go through `u()` from `src/lib/url.ts`.
+Links inside Markdown content are prefixed automatically.
+To move to a custom domain, set `SITE` and `BASE = '/'` in `astro.config.mjs`.

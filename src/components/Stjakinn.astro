@@ -1,14 +1,16 @@
 ---
+import { u } from '../lib/url';
 // Placeholder for the Stefaníustjakinn (trophy) feature — the 3D piece will live here.
 // Until then it shows the original trophy image from the old site.
 ---
 <figure class="stjakinn">
-  <img src="/images/stjakinn.gif" alt="Stefaníustjakinn, hannaður af Þorsteini Gunnarssyni" />
+  <img src={u('/images/stjakinn.gif')} alt="Stefaníustjakinn, hannaður af Þorsteini Gunnarssyni" />
   <figcaption class="muted">Stefaníustjakinn — hannaður af Þorsteini Gunnarssyni</figcaption>
 </figure>
 
 <style>
   .stjakinn { margin: 0; display: grid; justify-items: center; gap: .5rem; }
-  .stjakinn img { max-height: 22rem; width: auto; }
-  figcaption { font: .85rem var(--sans); }
+  /* multiply drops the GIF's white background into the paper */
+  .stjakinn img { max-height: 22rem; width: auto; mix-blend-mode: multiply; filter: sepia(.25); }
+  figcaption { font: italic .95rem var(--serif); }
 </style>

@@ -1,4 +1,5 @@
 ---
+import { u } from '../lib/url';
 import '../styles/global.css';
 
 interface Props {
@@ -19,7 +20,7 @@ const nav = [
   { href: '/stefaniustjakinn', label: 'Stjakinn' },
   { href: '/myndasafn', label: 'Myndasafn' },
 ];
-const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const path = Astro.url.pathname;
 ---
 <!doctype html>
 <html lang="is">
@@ -28,20 +29,23 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href={u('/favicon.svg')} type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
   </head>
   <body>
     <a class="skip" href="#main">Fara í efni</a>
     <header class="site-header">
       <div class="wrap header-inner">
-        <a class="brand" href="/">
+        <a class="brand" href={u('/')}>
           <span class="brand-name">Stefaníusjóður</span>
           <span class="brand-sub">Minningarsjóður frú Stefaníu Guðmundsdóttur</span>
         </a>
         <nav aria-label="Aðalvalmynd">
           <ul>
             {nav.map((item) => (
-              <li><a href={item.href} aria-current={path.startsWith(item.href) ? 'page' : undefined}>{item.label}</a></li>
+              <li><a href={u(item.href)} aria-current={path.startsWith(u(item.href)) ? 'page' : undefined}>{item.label}</a></li>
             ))}
           </ul>
         </nav>
