@@ -31,4 +31,19 @@ const sidur = defineCollection({
   }),
 });
 
-export const collections = { styrkthegar, styrkveitingar, sidur };
+// Í brennidepli — news and events: src/content/brennidepill/<yyyy-mm-dd>-<slug>.md
+const brennidepill = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/brennidepill' }),
+  schema: z.object({
+    title: z.string(),
+    date: z.coerce.date(),            // publish date (sorting)
+    eventDate: z.coerce.date().optional(), // set for events: shown as the event date
+    summary: z.string(),
+    image: z.string().optional(),
+    imageAlt: z.string().optional(),
+    featured: z.boolean().default(false), // shown large at the top of the home page
+    draft: z.boolean().default(false),
+  }),
+});
+
+export const collections = { styrkthegar, styrkveitingar, sidur, brennidepill };

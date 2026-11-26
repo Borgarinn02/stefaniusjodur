@@ -12,7 +12,7 @@ const { Content } = await render(r);
 const hasBio = Boolean(r.body?.trim());
 ---
 <Base title={r.data.name}>
-  <p><a href={u('/styrkthegar')}>← Allir styrkþegar</a></p>
+  <p class="crumb" data-pagefind-ignore><a href={u('/styrkthegar')}>← Allir styrkþegar</a></p>
   <article class="profile">
     {r.data.photo && (
       <figure>

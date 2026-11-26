@@ -10,17 +10,27 @@ const { title, description = 'Minningarsjóður frú Stefaníu Guðmundsdóttur 
 const siteName = 'Stefaníusjóður';
 const fullTitle = title ? `${title} · ${siteName}` : `${siteName} — Minningarsjóður frú Stefaníu Guðmundsdóttur`;
 
-const nav = [
-  { href: '/um-sjodinn', label: 'Um sjóðinn' },
+type NavItem = { href: string; label: string; children?: { href: string; label: string }[] };
+const nav: NavItem[] = [
+  {
+    href: '/um-sjodinn', label: 'Um sjóðinn',
+    children: [
+      { href: '/um-sjodinn', label: 'Um sjóðinn' },
+      { href: '/stjorn', label: 'Stjórn' },
+      { href: '/saga-sjodsins', label: 'Saga sjóðsins' },
+      { href: '/stefaniustjakinn', label: 'Stefaníustjakinn' },
+    ],
+  },
   { href: '/stefania', label: 'Frú Stefanía' },
   { href: '/poul-reumert-og-anna-borg', label: 'Poul & Anna' },
-  { href: '/saga-sjodsins', label: 'Saga' },
   { href: '/styrkthegar', label: 'Styrkþegar' },
   { href: '/styrkveitingar', label: 'Styrkveitingar' },
-  { href: '/stefaniustjakinn', label: 'Stjakinn' },
+  { href: '/i-brennidepli', label: 'Í brennidepli' },
   { href: '/myndasafn', label: 'Myndasafn' },
 ];
-const path = Astro.url.pathname;
+const path = Astro.url.pathname.replace(/\/$/, '');
+const isCurrent = (href: string) => path === u(href) || path.startsWith(u(href) + '/');
+const FACEBOOK = 'https://www.facebook.com/stefaniusjodur';
 ---
 <!doctype html>
 <html lang="is">
@@ -44,20 +54,55 @@ const path = Astro.url.pathname;
         </a>
         <nav aria-label="Aðalvalmynd">
           <ul>
-            {nav.map((item) => (
-              <li><a href={u(item.href)} aria-current={path.startsWith(u(item.href)) ? 'page' : undefined}>{item.label}</a></li>
+            {nav.map((item) => item.children ? (
+              <li class="has-menu">
+                <details class="menu">
+                  <summary aria-current={item.children.some((c) => isCurrent(c.href)) ? 'true' : undefined}>{item.label}</summary>
+                  <ul>
+                    {item.children.map((c) => (
+                      <li><a href={u(c.href)} aria-current={isCurrent(c.href) ? 'page' : undefined}>{c.label}</a></li>
+                    ))}
+                  </ul>
+                </details>
+              </li>
+            ) : (
+              <li><a href={u(item.href)} aria-current={isCurrent(item.href) ? 'page' : undefined}>{item.label}</a></li>
             ))}
+            <li>
+              <a class="search-link" href={u('/leit')} aria-current={isCurrent('/leit') ? 'page' : undefined}>
+                <svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                Leit
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
-    <main id="main" class="wrap">
+    <main id="main" class="wrap" data-pagefind-body>
       <slot />
     </main>
     <footer class="site-footer">
-      <div class="wrap">
-        <p>Minningarsjóður frú Stefaníu Guðmundsdóttur · Stofnaður 1938 af Önnu Borg og Poul Reumert</p>
+      <div class="wrap footer-inner">
+        <div>
+          <p class="footer-name">Minningarsjóður frú Stefaníu Guðmundsdóttur</p>
+          <p>Á rætur að rekja til ársins 1938 · Formlega stofnaður 1965 af Önnu Borg og Poul Reumert</p>
+        </div>
+        <a class="social" href={FACEBOOK} rel="noopener">
+          <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07Z"/></svg>
+          <span>Stefaníusjóður á Facebook</span>
+        </a>
       </div>
     </footer>
+    <script>
+      // Dropdown menus: close when clicking elsewhere or pressing Escape
+      const menus = document.querySelectorAll<HTMLDetailsElement>('details.menu');
+      document.addEventListener('click', (e) => {
+        menus.forEach((m) => { if (m.open && !m.contains(e.target as Node)) m.open = false; });
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key !== 'Escape') return;
+        menus.forEach((m) => { if (m.open) { m.open = false; m.querySelector('summary')?.focus(); } });
+      });
+    </script>
   </body>
 </html>

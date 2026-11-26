@@ -1,0 +1,45 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { u } from '../lib/url';
+import { formatDate, isoDate } from '../lib/dates';
+
+interface Props {
+  item: CollectionEntry<'brennidepill'>;
+  large?: boolean;
+}
+const { item, large = false } = Astro.props;
+const { title, date, eventDate, summary, image, imageAlt } = item.data;
+const href = u(`/i-brennidepli/${item.id}`);
+---
+<article class:list={['news', { large }]}>
+  {image && (
+    <a href={href} class="news-img" tabindex="-1" aria-hidden="true">
+      <img class="mounted" src={u(image)} alt={imageAlt ?? ''} loading="lazy" />
+    </a>
+  )}
+  <div>
+    {eventDate
+      ? <p class="when">Viðburður · <time datetime={isoDate(eventDate)}>{formatDate(eventDate)}</time></p>
+      : <p class="when"><time datetime={isoDate(date)}>{formatDate(date)}</time></p>}
+    <h3><a href={href}>{title}</a></h3>
+    <p>{summary}</p>
+    <p class="more"><a href={href}>Lesa meira →</a></p>
+  </div>
+</article>
+
+<style>
+  .news { display: grid; gap: 1rem 1.5rem; align-items: start; }
+  .news.large { padding: 1.5rem; background: rgba(247, 239, 220, .55); border: 1px solid var(--paper-edge); box-shadow: 0 10px 30px -18px rgba(43, 29, 19, .5); }
+  @media (min-width: 40rem) {
+    .news:has(.news-img) { grid-template-columns: 8rem 1fr; }
+    .news.large:has(.news-img) { grid-template-columns: 14rem 1fr; }
+  }
+  .news-img img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: top; filter: sepia(.2); }
+  .when { margin: 0; font: 600 .9rem var(--display); font-variant: small-caps; letter-spacing: .1em; color: var(--coffee-700); }
+  h3 { margin: .25rem 0 .5rem; }
+  .large h3 { font-size: clamp(1.6rem, 3vw, 2.1rem); }
+  h3 a { color: inherit; text-decoration: none; }
+  h3 a:hover { color: var(--link); text-decoration: underline; }
+  p { margin: 0 0 .5rem; }
+  .more { margin: 0; }
+</style>

@@ -3,26 +3,40 @@ import { u } from '../lib/url';
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Stjakinn from '../components/Stjakinn.astro';
+import NewsCard from '../components/NewsCard.astro';
+import { getNews } from '../lib/news';
 
 const recipients = await getCollection('styrkthegar');
 const latestYear = Math.max(...recipients.map((r) => r.data.year));
 const latest = recipients.filter((r) => r.data.year === latestYear);
 const ceremonies = (await getCollection('styrkveitingar')).sort((a, b) => b.data.year - a.data.year);
 const latestCeremony = ceremonies[0];
+
+const news = await getNews();
+const featured = news.find((n) => n.data.featured);
+const otherNews = news.filter((n) => n !== featured).slice(0, 3);
 ---
 <Base>
   <section class="hero">
     <div class="prose">
       <h1>Minningarsjóður frú Stefaníu Guðmundsdóttur</h1>
       <p>
-        Sjóðurinn var stofnaður árið 1938 af hjónunum Önnu Borg og Poul Reumert til að efla íslenska leiklist
-        og heiðra minningu Stefaníu Guðmundsdóttur (1876–1926), eins merkasta brautryðjanda leiklistar á Íslandi.
-        Frá árinu 1970 hafa {recipients.length} leikarar og leiklistarfólk hlotið styrk úr sjóðnum.
+        Sjóðurinn á rætur að rekja til ársins 1938, þegar hjónin Anna Borg og Poul Reumert lögðu tekjur
+        af gestaleik sínum í Reykjavík til hliðar í minningu Stefaníu Guðmundsdóttur (1876–1926), eins
+        merkasta brautryðjanda leiklistar á Íslandi. Sjóðurinn var formlega stofnaður árið 1965 og frá
+        árinu 1970 hafa {recipients.length} leikarar og leiklistarfólk hlotið styrk úr honum.
       </p>
       <p><a href={u('/um-sjodinn')}>Meira um sjóðinn →</a></p>
     </div>
     <Stjakinn />
   </section>
+
+  {featured && (
+    <section class="featured" aria-label="Í brennidepli">
+      <h2 class="year-heading">Í brennidepli</h2>
+      <NewsCard item={featured} large />
+    </section>
+  )}
 
   <section>
     <h2 class="year-heading">Nýjustu styrkþegar · {latestCeremony?.data.season ?? latestYear}</h2>
@@ -36,9 +50,22 @@ const latestCeremony = ceremonies[0];
     </div>
     <p><a href={u('/styrkthegar')}>Allir styrkþegar →</a></p>
   </section>
+
+  <section>
+    <h2 class="year-heading">Fréttir og viðburðir</h2>
+    {otherNews.length > 0 && <div class="news-list">{otherNews.map((item) => <NewsCard item={item} />)}</div>}
+    <p class="follow">
+      <a href={u('/i-brennidepli')}>Allar fréttir og viðburðir →</a>
+      <span aria-hidden="true">·</span>
+      <a href="https://www.facebook.com/stefaniusjodur" rel="noopener">Fylgstu með sjóðnum á Facebook</a>
+    </p>
+  </section>
 </Base>
 
 <style>
-  .hero { display: grid; gap: 2rem; align-items: center; margin-bottom: 3rem; }
+  .hero { display: grid; gap: 2rem; align-items: center; margin-bottom: 2rem; }
   @media (min-width: 56rem) { .hero { grid-template-columns: 1.4fr 1fr; } }
+  .featured { margin-bottom: 1rem; }
+  .news-list { display: grid; gap: 2rem; max-width: 48rem; }
+  .follow { display: flex; flex-wrap: wrap; gap: .25rem .75rem; }
 </style>

@@ -1,5 +1,5 @@
 ---
-title: "Úr sögu sjóðsins"
+title: "Saga sjóðsins"
 order: 4
 ---
 
@@ -38,13 +38,3 @@ Nú varðandi minningarsjóðinn, þá er það að segja, að þrátt fyrir ár
 Fyrstu sjóðsstjórn skipuðu að beiðni Poul Reumerts: Þorsteinn Ö. Stephensen, leikari – formaður, Agnar Klemens Jónsson, sendiherra – ritari og Torfi Hjartarson, tollstjóri – gjaldkeri.
 
 Fyrsta úthlutun var veitt 1970 og hana hlaut Helga Bachmann.“
-
-Stjórn sjóðsins er þannig skipuð: Kjartan Borg, formaður, Þorsteinn Gunnarsson, ritari, Hjörtur Torfason, gjaldkeri, Sunna Borg og Stefanía Borg meðstjórnendur.
-
-![](/images/styrkthegar3.jpg)
-
-Ljósmynd: ©MOTIV / Jón Svavarsson
-
-Styrkveiting árið 2000: Frá vinstri: Davíð Scheving Thorsteinsson, Stefanía Borg Thorsteinsson, Geir Borg,
-
-Jóhanna Vigdís Arnardóttir, Ingvar E. Sigurðsson, Hilmir Snær Guðnason, Þorsteinn Gunnarsson og Hjörtur Torfason.

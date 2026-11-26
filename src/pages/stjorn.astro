@@ -1,0 +1,32 @@
+---
+import { u } from '../lib/url';
+import Base from '../layouts/Base.astro';
+import stjorn from '../data/stjorn.json';
+// Board members are edited in src/data/stjorn.json. Put photos in public/images/stjorn/
+// and set "photo": "/images/stjorn/<file>.jpg".
+---
+<Base title="Stjórn sjóðsins">
+  <p class="crumb" data-pagefind-ignore><a href={u('/um-sjodinn')}>Um sjóðinn</a> / Stjórn</p>
+  <article>
+    <h1>Stjórn sjóðsins</h1>
+    <p class="prose">
+      Stjórn sjóðsins er þannig skipuð: Geir Borg, formaður, Marta Nordal, ritari, Páll Borg, gjaldkeri,
+      Gísli Örn Garðarsson og Bergljót Borg meðstjórnendur.
+    </p>
+    <div class="grid board">
+      {stjorn.map((m) => (
+        <figure class="card">
+          {m.photo ? <img src={u(m.photo)} alt={m.name} /> : <div class="no-photo">Mynd væntanleg</div>}
+          <h3>{m.name}</h3>
+          <p class="muted role">{m.role}</p>
+        </figure>
+      ))}
+    </div>
+  </article>
+</Base>
+
+<style>
+  .board { margin-top: 2.5rem; }
+  .board figure { margin: 0; }
+  .role { margin: 0; font-style: italic; }
+</style>

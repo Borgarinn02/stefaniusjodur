@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import NewsCard from '../../components/NewsCard.astro';
+import { getNews } from '../../lib/news';
+
+const news = await getNews();
+---
+<Base title="Í brennidepli">
+  <h1>Í brennidepli</h1>
+  <p class="prose muted">Fréttir og viðburðir á vegum Minningarsjóðs frú Stefaníu Guðmundsdóttur.</p>
+  <div class="list">
+    {news.map((item) => <NewsCard item={item} />)}
+    {news.length === 0 && <p class="muted">Engar fréttir að sinni.</p>}
+  </div>
+</Base>
+
+<style>
+  .list { display: grid; gap: 2.5rem; max-width: 48rem; margin-top: 2.5rem; }
+</style>

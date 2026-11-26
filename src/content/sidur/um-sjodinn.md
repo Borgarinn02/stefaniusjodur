@@ -3,7 +3,7 @@ title: "Um minningarsjóðinn"
 order: 1
 ---
 
-Minningasjóður frú Stefaníu Guðmundsdóttur var stofnaður árið 1938 af hjónunum Önnu Borg og
+Minningarsjóður frú Stefaníu Guðmundsdóttur var stofnaður árið 1938 af hjónunum Önnu Borg og
 Poul Reumert. Var sjóðurinn stofnaður til að efla íslenska leiklist og heiðra um leið minningu
 Stefaníu Guðmundsdóttur, móður Önnu Borg. Stefanía (1876-1926) var einn af merkustu brautryðjendum
 leiklistar á Íslandi og almennt talin fremsti leikari þjóðarinnar um sína daga.
@@ -21,4 +21,4 @@ Stefaníu. Ákvað sjóðsstjórnin þá að láta gera sérstakan viðurkenning
 arkitekt. Stjakanum hefur fylgt eintak af ævisögu frú Stefaníu, *Leyndarmál frú Stefaníu* eftir
 Jón Viðar Jónsson en sú bók er ekki lengur fáanleg.
 
-**[Sjá styrkveitingu sjóðsins 2017-2018](index.php?m=A1&id=M2017)**
+**[Sjá styrkveitingu sjóðsins 2017–2018](/styrkveitingar/2017)** · **[Stjórn sjóðsins](/stjorn)** · **[Saga sjóðsins](/saga-sjodsins)**

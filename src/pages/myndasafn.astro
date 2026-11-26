@@ -2,26 +2,138 @@
 import { u } from '../lib/url';
 import Base from '../layouts/Base.astro';
 import images from '../data/myndasafn.json';
+// Titles and descriptions are edited in src/data/myndasafn.json.
 
-const byYear = Map.groupBy([...images].sort((a, b) => b.year - a.year), (i) => i.year);
+const sorted = [...images].sort((a, b) => b.year - a.year);
+const byYear = Map.groupBy(sorted, (i) => i.year);
+let index = 0;
 ---
 <Base title="Myndasafn">
   <h1>Myndasafn</h1>
+  <p class="prose muted">Smelltu á mynd til að stækka hana. Örvatakkar fletta á milli mynda og Esc lokar.</p>
   {[...byYear].map(([year, imgs]) => (
     <section>
       <h2 class="year-heading">{year}</h2>
       <div class="gallery">
         {imgs.map((img) => (
-          <a href={u(img.src)}>
-            <img class="mounted" src={u(img.thumb)} alt={img.caption || `Mynd frá styrkveitingu ${year}`} loading="lazy" />
+          <a
+            href={u(img.src)}
+            class="gallery-item"
+            data-index={index++}
+            data-title={img.title}
+            data-description={img.description}
+          >
+            <img class="mounted" src={u(img.thumb)} alt={img.title} loading="lazy" />
           </a>
         ))}
       </div>
     </section>
   ))}
+
+  <dialog class="lightbox" aria-label="Myndaskoðari" data-pagefind-ignore>
+    <button class="lb-close" type="button" aria-label="Loka">×</button>
+    <button class="lb-nav lb-prev" type="button" aria-label="Fyrri mynd">‹</button>
+    <figure>
+      <img class="lb-img" alt="" />
+      <figcaption>
+        <p class="lb-count"></p>
+        <h2 class="lb-title"></h2>
+        <p class="lb-desc"></p>
+      </figcaption>
+    </figure>
+    <button class="lb-nav lb-next" type="button" aria-label="Næsta mynd">›</button>
+  </dialog>
 </Base>
 
+<script>
+  const items = [...document.querySelectorAll<HTMLAnchorElement>('.gallery-item')];
+  const dialog = document.querySelector<HTMLDialogElement>('.lightbox')!;
+  const img = dialog.querySelector<HTMLImageElement>('.lb-img')!;
+  const title = dialog.querySelector('.lb-title')!;
+  const desc = dialog.querySelector('.lb-desc')!;
+  const count = dialog.querySelector('.lb-count')!;
+  let current = 0;
+
+  function show(i: number) {
+    current = (i + items.length) % items.length;
+    const a = items[current];
+    img.src = a.href;
+    img.alt = a.dataset.title ?? '';
+    title.textContent = a.dataset.title ?? '';
+    desc.textContent = a.dataset.description ?? '';
+    desc.toggleAttribute('hidden', !a.dataset.description);
+    count.textContent = `${current + 1} / ${items.length}`;
+    // Preload neighbours so arrowing feels instant
+    [current - 1, current + 1].forEach((n) => { new Image().src = items[(n + items.length) % items.length].href; });
+  }
+
+  items.forEach((a, i) => a.addEventListener('click', (e) => {
+    e.preventDefault();
+    show(i);
+    dialog.showModal();
+  }));
+  dialog.querySelector('.lb-prev')!.addEventListener('click', () => show(current - 1));
+  dialog.querySelector('.lb-next')!.addEventListener('click', () => show(current + 1));
+  dialog.querySelector('.lb-close')!.addEventListener('click', () => dialog.close());
+  // Click on the dark backdrop closes
+  dialog.addEventListener('click', (e) => { if (e.target === dialog) dialog.close(); });
+  dialog.addEventListener('close', () => items[current]?.focus());
+  document.addEventListener('keydown', (e) => {
+    if (!dialog.open) return;
+    if (e.key === 'ArrowLeft') { e.preventDefault(); show(current - 1); }
+    if (e.key === 'ArrowRight') { e.preventDefault(); show(current + 1); }
+  });
+  // Swipe on touch screens
+  let startX = 0;
+  dialog.addEventListener('touchstart', (e) => { startX = e.touches[0].clientX; }, { passive: true });
+  dialog.addEventListener('touchend', (e) => {
+    const dx = e.changedTouches[0].clientX - startX;
+    if (Math.abs(dx) > 50) show(current + (dx < 0 ? 1 : -1));
+  });
+</script>
+
 <style>
-  .gallery { display: grid; gap: .75rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 10rem), 1fr)); }
-  .gallery img { aspect-ratio: 4 / 3; width: 100%; object-fit: cover; }
+  .gallery { display: grid; gap: .9rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 10rem), 1fr)); }
+  .gallery img { aspect-ratio: 4 / 3; width: 100%; object-fit: cover; filter: sepia(.15); transition: transform .2s ease; }
+  .gallery-item:hover img, .gallery-item:focus-visible img { transform: rotate(-.6deg) translateY(-2px); }
+  .gallery-item:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
+
+  .lightbox {
+    width: min(100vw, 72rem);
+    max-width: 100vw;
+    max-height: 100dvh;
+    padding: 1rem 3.5rem;
+    border: 0;
+    background: transparent;
+    color: var(--cream);
+    overflow: visible;
+  }
+  .lightbox[open] { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: .5rem; }
+  .lightbox::backdrop { background: rgba(24, 15, 9, .92); }
+  .lightbox figure { margin: 0; display: grid; justify-items: center; gap: .9rem; min-width: 0; }
+  .lb-img { max-height: 72dvh; width: auto; max-width: 100%; padding: .5rem; background: var(--paper-light); box-shadow: 0 20px 50px -20px #000; }
+  figcaption { text-align: center; max-width: 44rem; }
+  .lb-count { margin: 0; font: 600 .85rem var(--display); letter-spacing: .12em; color: var(--gold); }
+  .lb-title { margin: .2rem 0; color: var(--cream); font-size: 1.5rem; }
+  .lb-desc { margin: 0; color: var(--cream); opacity: .85; white-space: pre-line; }
+  .lb-nav, .lb-close {
+    border: 1px solid rgba(201, 164, 106, .5);
+    background: rgba(59, 38, 24, .7);
+    color: var(--cream);
+    font: 2rem/1 var(--display);
+    width: 3rem; height: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .lb-nav:hover, .lb-close:hover { background: var(--coffee-700); border-color: var(--gold); }
+  .lb-nav:focus-visible, .lb-close:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .lb-close { position: fixed; top: 1rem; right: 1rem; font-size: 1.8rem; }
+  @media (max-width: 40rem) {
+    .lightbox { padding: 3.5rem .5rem 1rem; }
+    .lightbox[open] { grid-template-columns: 1fr; }
+    .lb-nav { position: fixed; bottom: 1rem; }
+    .lb-prev { left: 1rem; }
+    .lb-next { right: 1rem; }
+  }
+  @media (prefers-reduced-motion: reduce) { .gallery img { transition: none; } }
 </style>

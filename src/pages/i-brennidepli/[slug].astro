@@ -1,0 +1,32 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { u } from '../../lib/url';
+import { formatDate, isoDate } from '../../lib/dates';
+import { getNews } from '../../lib/news';
+
+export async function getStaticPaths() {
+  const news = await getNews();
+  return news.map((item) => ({ params: { slug: item.id }, props: { item } }));
+}
+const { item } = Astro.props;
+const { Content } = await render(item);
+const { title, date, eventDate, image, imageAlt, summary } = item.data;
+---
+<Base title={title} description={summary}>
+  <p class="crumb" data-pagefind-ignore><a href={u('/i-brennidepli')}>Í brennidepli</a></p>
+  <article class="prose">
+    <p class="muted">
+      {eventDate
+        ? <>Viðburður · <time datetime={isoDate(eventDate)}>{formatDate(eventDate)}</time></>
+        : <time datetime={isoDate(date)}>{formatDate(date)}</time>}
+    </p>
+    <h1>{title}</h1>
+    {image && <img src={u(image)} alt={imageAlt ?? ''} class="lead-img" />}
+    <Content />
+  </article>
+</Base>
+
+<style>
+  .lead-img { max-height: 28rem; width: auto; }
+</style>

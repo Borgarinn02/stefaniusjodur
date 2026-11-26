@@ -9,6 +9,12 @@ const SRC = path.join(ROOT, '_source');
 const CONTENT = path.join(ROOT, 'src/content');
 const IMAGES = path.join(ROOT, 'public/images');
 
+if (fs.existsSync(path.join(CONTENT, 'styrkthegar')) && !process.argv.includes('--force')) {
+  console.error('src/content already exists and has been edited by hand since the import.\n' +
+    'Re-running would overwrite those edits. Pass --force if you really mean it.');
+  process.exit(1);
+}
+
 const read = (p) => fs.readFileSync(path.join(SRC, p), 'utf8');
 const write = (p, s) => { fs.mkdirSync(path.dirname(p), { recursive: true }); fs.writeFileSync(p, s); };
 

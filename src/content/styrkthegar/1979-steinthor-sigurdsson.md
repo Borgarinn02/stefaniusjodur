@@ -6,7 +6,7 @@ photoCredit: null
 ---
 
 Steinþór Sigurðsson leikmyndateiknari varð fyrstur leiklistarmanna utan
-leikarastéttarinnar til að hljóta styrk úr Minningasjóðnum. Steinþór
+leikarastéttarinnar til að hljóta styrk úr Minningarsjóðnum. Steinþór
 var þá löngu kominn í röð fremstu leikmyndateiknara þjóðarinnar. Hann
 stundaði nám í Stokkhólmi á árunum 1951 til 1955, dvaldi á Spáni um
 hríð, en sneri sér eftir heimkomuna að kennslu og myndlist. Árið 1960
