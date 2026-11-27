@@ -1,7 +1,7 @@
 ---
 name: "Steinunn Ólína Þorsteinsdóttir"
-year: 2017
-photo: null
+year: 2018
+photo: "/images/styrkthegar/2018B.jpg"
 photoCredit: null
 ---
 

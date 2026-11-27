@@ -1,6 +1,6 @@
 ---
 name: "Björn Thors"
-year: 2016
+year: 2017
 photo: "/images/styrkthegar/2016B.jpg"
 photoCredit: null
 ---

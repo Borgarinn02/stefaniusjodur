@@ -9,8 +9,6 @@ import { getNews } from '../lib/news';
 const recipients = await getCollection('styrkthegar');
 const latestYear = Math.max(...recipients.map((r) => r.data.year));
 const latest = recipients.filter((r) => r.data.year === latestYear);
-const ceremonies = (await getCollection('styrkveitingar')).sort((a, b) => b.data.year - a.data.year);
-const latestCeremony = ceremonies[0];
 
 const news = await getNews();
 const featured = news.find((n) => n.data.featured);
@@ -39,7 +37,7 @@ const otherNews = news.filter((n) => n !== featured).slice(0, 3);
   )}
 
   <section>
-    <h2 class="year-heading">Nýjustu styrkþegar · {latestCeremony?.data.season ?? latestYear}</h2>
+    <h2 class="year-heading">{latest.length > 1 ? 'Nýjustu styrkþegar' : 'Nýjasti styrkþegi'} · {latestYear}</h2>
     <div class="grid">
       {latest.map((p) => (
         <a class="card" href={u(`/styrkthegar/${p.id}`)}>

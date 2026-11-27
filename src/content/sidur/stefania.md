@@ -3,11 +3,15 @@ title: "Frú Stefanía Guðmundsdóttir"
 order: 2
 ---
 
-![](/images/stefania1.jpg)
+![Stefanía Guðmundsdóttir í hlutverki Mögdu í Heimilinu](/images/stefania-magda.jpg)
 
-Stefanía Guðmundsdóttir
+*Stefanía Guðmundsdóttir í hlutverki Mögdu í leikritinu Heimilið (Heimat) eftir Hermann Sudermann, sýnt hjá Leikfélagi Reykjavíkur um 1901–1902. Hlutverkið var meðal eftirminnilegustu sviðsafreka hennar.*
 
 Stefanía Guðmundsdóttir var í senn fremsta leikkona Íslands um sína daga og einn helsti burðarás Leikfélags Reykjavíkur. Í vitund samtíðarinnar var hún skærasta leikstjarna sviðsins í Iðnó, en hún var ekki aðeins stærsta „primadonnan“ - svo notað sé orð með heldur neikvæðum blæ - heldur mesti fagmaður leikhússins. Stefanía var vissulega „stjörnuleikari“, en það skiptir litlu hjá því að hún varð í reynd fremsti brautryðjandi faglegra vinnubragða meðal sinnar kynslóðar. Og hún vísaði veginn í ýmsum öðrum efnum, t.d. reyndi hún að efla hér vísi að listdansi, stóð fyrir fyrstu barnasýningunni og fór í miklar leikferðir bæði innanlands og til Vesturheims. Á allra síðustu árum sínum, þegar ljóst var að leikflokkurinn við Tjörnina þyrfti á endurnýjun að halda, ætti hann ekki að lognast út af, reyndi hún að veita ungum leikurum tilsögn, þó að um mjög formlegt skólahald yrði ekki að ræða. Það kom í hlut næstu kynslóðar leikhússins að koma því á fót.
+
+![Stefanía Guðmundsdóttir](/images/stefania1.jpg)
+
+*Stefanía Guðmundsdóttir*
 
 Stefanía lauk aldrei leikaraprófi frá viðurkenndri stofnun og vitaskuld gat hún ekki haft lifibrauð af listinni frekar en félagar hennar í Leikfélagi Reykjavíkur; að því leyti var hún ekki atvinnumaður í þeim skilningi sem við leggjum í orðið. Miðað við allar aðstæður steig hún þó eins langt skref í þá átt og frekast var unnt. Það er vandséð hvernig hægt hefði verið að nýta betur en hún gerði þá möguleika til listræns þroska og framfara sem henni og kynslóð hennar stóðu til boða.
 

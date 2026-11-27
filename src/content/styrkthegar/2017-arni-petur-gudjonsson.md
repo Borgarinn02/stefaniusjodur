@@ -1,6 +1,6 @@
 ---
 name: "Árni Pétur Guðjónsson"
-year: 2016
+year: 2017
 photo: "/images/styrkthegar/2016A.jpg"
 photoCredit: null
 ---

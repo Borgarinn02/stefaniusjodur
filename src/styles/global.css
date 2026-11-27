@@ -55,7 +55,7 @@ body::before {
   pointer-events: none;
 }
 
-/* Layer 2: paper grain and fibres, plus a few coffee stains */
+/* Layer 2: paper grain, fibres and slightly aged edges (coffee stains removed at the fund's request) */
 body::after {
   content: '';
   position: fixed;
@@ -63,8 +63,6 @@ body::after {
   z-index: -1;
   pointer-events: none;
   background:
-    url('/textures/coffee-splash.svg') left -40px bottom 60px / 260px no-repeat,
-    url('/textures/coffee-ring.svg') left 6% bottom -190px / 300px no-repeat,
     radial-gradient(ellipse at center, transparent 55%, rgba(110, 66, 32, .18) 100%),
     url('/textures/paper-fibres.svg') center / cover no-repeat,
     url('/textures/paper-grain.svg') 0 0 / 300px;
@@ -95,6 +93,15 @@ h3 { font-size: 1.25rem; }
 .header-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem 2rem; padding-block: 1.25rem; }
 
 .brand { text-decoration: none; color: inherit; display: grid; gap: .1rem; }
+
+/* Logo (drawing of Stefanía) at the right edge of the header */
+.header-inner.has-logo { position: relative; padding-right: 7.5rem; }
+.header-logo { position: absolute; right: 1rem; top: 50%; transform: translateY(-50%); height: calc(100% - 1rem); max-height: 7rem; }
+.header-logo img { height: 100%; width: auto; }
+@media (max-width: 40rem) {
+  .header-inner.has-logo { padding-right: 4.5rem; }
+  .header-logo { top: 1rem; transform: none; height: 3.6rem; }
+}
 .brand-name {
   font: 600 1.85rem/1 var(--display);
   font-variant: small-caps;

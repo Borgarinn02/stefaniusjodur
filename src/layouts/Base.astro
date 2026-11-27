@@ -31,6 +31,10 @@ const nav: NavItem[] = [
 const path = Astro.url.pathname.replace(/\/$/, '');
 const isCurrent = (href: string) => path === u(href) || path.startsWith(u(href) + '/');
 const FACEBOOK = 'https://www.facebook.com/stefaniusjodur';
+
+// Header logo: drop public/images/logo.svg (preferred) or logo.png in and it appears automatically.
+import fs from 'node:fs';
+const logoFile = ['logo.svg', 'logo.png'].find((f) => fs.existsSync(`public/images/${f}`));
 ---
 <!doctype html>
 <html lang="is">
@@ -47,7 +51,12 @@ const FACEBOOK = 'https://www.facebook.com/stefaniusjodur';
   <body>
     <a class="skip" href="#main">Fara í efni</a>
     <header class="site-header">
-      <div class="wrap header-inner">
+      <div class:list={['wrap', 'header-inner', { 'has-logo': logoFile }]}>
+        {logoFile && (
+          <a class="header-logo" href={u('/')} aria-hidden="true" tabindex="-1">
+            <img src={u(`/images/${logoFile}`)} alt="" />
+          </a>
+        )}
         <a class="brand" href={u('/')}>
           <span class="brand-name">Stefaníusjóður</span>
           <span class="brand-sub">Minningarsjóður frú Stefaníu Guðmundsdóttur</span>

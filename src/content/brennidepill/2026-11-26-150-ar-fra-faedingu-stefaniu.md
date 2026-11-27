@@ -3,8 +3,8 @@ title: "150 ár frá fæðingu frú Stefaníu"
 date: 2026-11-26
 eventDate: 2026-12-06
 summary: "Í ár eru 150 ár liðin frá fæðingu frú Stefaníu Guðmundsdóttur (1876–1926), eins merkasta brautryðjanda leiklistar á Íslandi. Þess verður minnst 6. desember."
-image: "/images/stefania1.jpg"
-imageAlt: "Frú Stefanía Guðmundsdóttir"
+image: "/images/stefania-magda.jpg"
+imageAlt: "Stefanía Guðmundsdóttir í hlutverki Mögdu í Heimilinu (Heimat), um 1901–1902"
 featured: true
 ---
 

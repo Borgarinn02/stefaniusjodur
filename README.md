@@ -19,6 +19,7 @@ npm run build    # static site in dist/
 | General pages (Um sjóðinn, Stefanía, Saga, Stjakinn…) | `src/content/sidur/*.md` |
 | Gallery list (title + description per photo) | `src/data/myndasafn.json` |
 | News & events (Í brennidepli) | `src/content/brennidepill/<yyyy-mm-dd>-<slug>.md` |
+| Header logo | `public/images/logo.svg` or `logo.png` (appears automatically) |
 | Board members (Stjórn) | `src/data/stjorn.json` (photos in `public/images/stjorn/`) |
 | Images | `public/images/` (portraits in `styrkthegar/`, gallery in `myndasafn/`) |
 | Layout, navigation | `src/layouts/Base.astro` |
