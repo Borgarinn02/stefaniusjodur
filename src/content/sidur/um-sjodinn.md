@@ -21,4 +21,4 @@ Stefaníu. Ákvað sjóðsstjórnin þá að láta gera sérstakan viðurkenning
 arkitekt. Stjakanum hefur fylgt eintak af ævisögu frú Stefaníu, *Leyndarmál frú Stefaníu* eftir
 Jón Viðar Jónsson en sú bók er ekki lengur fáanleg.
 
-**[Sjá styrkveitingu sjóðsins 2017–2018](/styrkveitingar/2017)** · **[Stjórn sjóðsins](/stjorn)** · **[Saga sjóðsins](/saga-sjodsins)**
+**[Sjá styrkveitingu sjóðsins 2018](/styrkveitingar/2018)** · **[Stjórn sjóðsins](/stjorn)** · **[Saga sjóðsins](/saga-sjodsins)**

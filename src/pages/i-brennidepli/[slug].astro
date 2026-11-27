@@ -29,4 +29,29 @@ const { title, date, eventDate, image, imageAlt, summary } = item.data;
 
 <style>
   .lead-img { max-height: 28rem; width: auto; }
+  /* Event details written in the Markdown body */
+  article :global(.event-when) {
+    margin: 1.75rem 0;
+    padding: 1rem 1.25rem;
+    border-left: 3px solid var(--gold);
+    background: rgba(247, 239, 220, .6);
+    font: 600 1.2rem/1.5 var(--display);
+    color: var(--coffee-800);
+  }
+  article :global(h3) { font-variant: small-caps; letter-spacing: .08em; margin-top: 2rem; }
+  article :global(ul) { padding-left: 1.2rem; }
+  article :global(li) { margin-bottom: .6rem; }
+  article :global(li::marker) { color: var(--gold); }
+  article :global(.event-link a) {
+    display: inline-block;
+    margin-top: .5rem;
+    padding: .6rem 1.2rem;
+    background: var(--coffee-800);
+    color: var(--cream);
+    text-decoration: none;
+    font: 500 1.05rem var(--display);
+    letter-spacing: .03em;
+    border: 1px solid var(--gold);
+  }
+  article :global(.event-link a:hover) { background: var(--coffee-700); color: #fff6e3; }
 </style>

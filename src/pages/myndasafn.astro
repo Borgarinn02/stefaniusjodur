@@ -94,7 +94,7 @@ let index = 0;
 
 <style>
   .gallery { display: grid; gap: .9rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 10rem), 1fr)); }
-  .gallery img { aspect-ratio: 4 / 3; width: 100%; object-fit: cover; filter: sepia(.15); transition: transform .2s ease; }
+  .gallery img { aspect-ratio: 4 / 3; width: 100%; object-fit: cover; object-position: 50% 22%; filter: sepia(.15); transition: transform .2s ease; }
   .gallery-item:hover img, .gallery-item:focus-visible img { transform: rotate(-.6deg) translateY(-2px); }
   .gallery-item:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
 

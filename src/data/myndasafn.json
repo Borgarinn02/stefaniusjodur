@@ -1,5 +1,61 @@
 [
   {
+    "year": 2025,
+    "src": "/images/styrkthegar/2025.jpg",
+    "thumb": "/images/styrkthegar/2025.jpg",
+    "title": "Ebba Katrín Finnsdóttir",
+    "description": "Styrkþegi 2025",
+    "lowRes": false
+  },
+  {
+    "year": 2018,
+    "src": "/images/myndasafn/M2017.jpg",
+    "thumb": "/images/myndasafn/M2017.jpg",
+    "title": "Við styrkveitingu 2018",
+    "description": "Afhending viðurkenninga úr Minningarsjóði frú Stefaníu Guðmundsdóttur 1. júní 2018.",
+    "lowRes": false
+  },
+  {
+    "year": 2018,
+    "src": "/images/styrkthegar/2018A.jpg",
+    "thumb": "/images/styrkthegar/2018A.jpg",
+    "title": "Stefán Karl Stefánsson",
+    "description": "Styrkþegi 2018",
+    "lowRes": true
+  },
+  {
+    "year": 2018,
+    "src": "/images/styrkthegar/2018B.jpg",
+    "thumb": "/images/styrkthegar/2018B.jpg",
+    "title": "Steinunn Ólína Þorsteinsdóttir",
+    "description": "Styrkþegi 2018",
+    "lowRes": true
+  },
+  {
+    "year": 2017,
+    "src": "/images/myndasafn/M20162.jpg",
+    "thumb": "/images/myndasafn/M2016s2.jpg",
+    "title": "Við styrkveitingu 2017",
+    "description": "Afhending viðurkenninga úr Minningarsjóði frú Stefaníu Guðmundsdóttur 9. júní 2017.",
+    "lowRes": false
+  },
+  {
+    "year": 2017,
+    "src": "/images/styrkthegar/2016B.jpg",
+    "thumb": "/images/styrkthegar/2016B.jpg",
+    "title": "Björn Thors",
+    "description": "Styrkþegi 2017",
+    "lowRes": false
+  },
+  {
+    "year": 2017,
+    "src": "/images/styrkthegar/2016A.jpg",
+    "thumb": "/images/styrkthegar/2016A.jpg",
+    "title": "Árni Pétur Guðjónsson",
+    "description": "Styrkþegi 2017",
+    "lowRes": false
+  },
+  {
     "year": 2015,
     "src": "/images/myndasafn/M2015A.jpg",
     "thumb": "/images/myndasafn/M2015As.jpg",
