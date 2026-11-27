@@ -4,3 +4,6 @@ dist/
 .env
 .DS_Store
 Thumbs.db
+
+# Recipients not yet announced (kept local only, never committed or deployed)
+unpublished/

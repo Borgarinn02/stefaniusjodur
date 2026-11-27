@@ -6,8 +6,10 @@ import NewsCard from '../components/NewsCard.astro';
 import { getNews } from '../lib/news';
 
 const recipients = await getCollection('styrkthegar');
-const latestYear = Math.max(...recipients.map((r) => r.data.year));
-const latest = recipients.filter((r) => r.data.year === latestYear);
+// The three most recent recipients (newest year first; alphabetical within a year)
+const latest = [...recipients]
+  .sort((a, b) => b.data.year - a.data.year || a.data.name.localeCompare(b.data.name, 'is'))
+  .slice(0, 3);
 
 const news = await getNews();
 const featured = news.find((n) => n.data.featured);
@@ -41,12 +43,13 @@ const otherNews = news.filter((n) => n !== featured).slice(0, 3);
   )}
 
   <section>
-    <h2 class="year-heading">{latest.length > 1 ? 'Nýjustu styrkþegar' : 'Nýjasti styrkþegi'} · {latestYear}</h2>
+    <h2 class="year-heading">Nýjustu styrkþegar</h2>
     <div class="grid">
       {latest.map((p) => (
         <a class="card" href={u(`/styrkthegar/${p.id}`)}>
           {p.data.photo ? <img src={u(p.data.photo)} alt={p.data.name} /> : <div class="no-photo">Mynd vantar</div>}
           <h3>{p.data.name}</h3>
+          <p class="card-year">{p.data.year}</p>
         </a>
       ))}
     </div>
@@ -67,6 +70,7 @@ const otherNews = news.filter((n) => n !== featured).slice(0, 3);
 <style>
   .hero { display: grid; gap: 2rem; align-items: center; margin-bottom: 2rem; }
   @media (min-width: 56rem) { .hero { grid-template-columns: 1.4fr 1fr; } }
+  .card-year { margin: 0; font: italic .95rem var(--serif); color: var(--ink-soft); }
   .hero-photo { margin: 0; display: grid; justify-items: center; gap: .6rem; }
   .hero-photo img { max-height: 30rem; width: auto; filter: sepia(.1); transform: rotate(1.2deg); transition: transform .3s ease; }
   .hero-photo a:hover img { transform: rotate(0deg); }
