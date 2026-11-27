@@ -8,7 +8,7 @@ const byYear = Map.groupBy(all, (r) => r.data.year);
 ---
 <Base title="Styrkþegar">
   <h1>Styrkþegar</h1>
-  <p class="prose muted">Frá árinu 1970 hafa {all.length} leikarar og leiklistarfólk hlotið styrk úr Minningarsjóði frú Stefaníu Guðmundsdóttur.</p>
+  <p class="prose muted">Frá árinu 1970 hafa yfir 50 leikarar og leiklistarfólk hlotið styrk úr Minningarsjóði frú Stefaníu Guðmundsdóttur.</p>
   {[...byYear].map(([year, people]) => (
     <section>
       <h2 class="year-heading">{year}</h2>
